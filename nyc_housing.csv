@@ -1,0 +1,764 @@
+id,region,price,type,sqfeet,beds,baths,cats_allowed,dogs_allowed,smoking_allowed,wheelchair_access,electric_vehicle_charge,comes_furnished,laundry_options,parking_options,lat,long,state
+7048543041,new york city,1800,apartment,900,1,1,0,0,1,0,0,0,no laundry on site,no parking,40.607,-73.9629,ny
+7048277368,new york city,1750,apartment,650,1,1,0,0,1,0,0,0,no laundry on site,no parking,40.6478,-74.013,ny
+7048237930,new york city,2390,condo,950,3,1,1,1,1,0,0,0,w/d hookups,,40.6504,-74.01,ny
+7051132146,new york city,2550,apartment,600,2,1,1,0,1,0,0,0,,,40.742,-73.9792,ny
+7051131790,new york city,2550,apartment,600,2,1,1,0,1,0,0,0,,,40.742,-73.9792,ny
+7048497001,new york city,1895,apartment,800,2,1,0,0,1,0,0,0,,,40.8235,-73.878,ny
+7048492814,new york city,2700,apartment,1300,3,2,0,0,1,0,0,0,no laundry on site,attached garage,40.6011,-73.9475,ny
+7050642799,new york city,3150,apartment,2500,3,2,0,0,1,0,0,0,w/d in unit,,40.6762,-73.8736,ny
+7050558998,new york city,1950,apartment,1000,2,1,0,0,0,0,0,0,w/d in unit,street parking,40.7102,-74.0642,ny
+7050415116,new york city,2500,apartment,1100,2,1,1,0,1,0,0,0,laundry in bldg,,40.6996,-73.9521,ny
+7050407699,new york city,3795,apartment,822,2,1,1,1,1,0,0,0,,,40.7091,-74.0146,ny
+7050407378,new york city,2300,apartment,900,2,2,0,0,1,0,0,0,laundry in bldg,,40.7029,-73.8111,ny
+7050403493,new york city,1950,apartment,700,1,1,0,0,0,0,0,0,laundry in bldg,,40.7462,-73.9081,ny
+7050958460,new york city,1450,apartment,500,0,1,0,0,1,0,0,0,,,40.636,-74.0232,ny
+7050871069,new york city,2500,apartment,20,2,1,1,0,1,0,0,0,,,40.7095,-73.9563,ny
+7050869644,new york city,3099,apartment,850,1,1,1,1,1,0,0,0,w/d in unit,,40.7446,-73.9577,ny
+7050868972,new york city,4968,apartment,950,2,2,1,1,1,0,0,0,w/d in unit,,40.7704,-73.9922,ny
+7050152969,new york city,2478,apartment,800,0,1,1,1,1,0,0,0,w/d in unit,attached garage,40.7481,-73.9398,ny
+7049996137,new york city,2599,house,1200,3,1.5,1,1,1,0,0,0,no laundry on site,street parking,40.6766,-73.9249,ny
+7049992139,new york city,1700,apartment,700,1,1,1,1,1,0,0,0,no laundry on site,,40.6333,-73.9764,ny
+7049991540,new york city,3550,house,1500,4,2,0,0,0,0,0,0,w/d in unit,,40.6729,-73.5365,ny
+7049990373,new york city,2478,apartment,550,0,1,1,1,1,0,0,0,w/d in unit,,40.7446,-73.9345,ny
+7049372671,new york city,2599,apartment,1400,3,2,1,1,1,0,0,0,,,40.673,-73.9252,ny
+7049115654,new york city,2400,apartment,900,2,1,1,0,1,0,0,0,laundry in bldg,,40.7842,-73.7778,ny
+7048756530,new york city,2075,condo,315,0,1,0,0,0,0,0,0,laundry in bldg,no parking,40.7614,-73.9889,ny
+7048741617,new york city,3021,apartment,700,1,1,1,1,1,1,0,0,laundry in bldg,attached garage,40.7454,-73.9575,ny
+7048419127,new york city,2495,apartment,700,1,1,1,0,1,0,0,0,laundry in bldg,,40.7503,-73.9968,ny
+7050347961,new york city,16,apartment,735,2,1,0,0,1,0,0,0,,,40.7426,-73.8939,ny
+7050345900,new york city,1700,townhouse,600,1,1,0,0,1,0,0,0,,,40.7428,-73.7588,ny
+7050334625,new york city,7695,apartment,1500,2,2,1,1,1,0,0,0,w/d in unit,attached garage,40.7794,-73.9546,ny
+7051257763,new york city,2050,townhouse,1500,2,1.5,1,0,0,0,0,0,w/d in unit,off-street parking,40.6348,-74.089,ny
+7051254028,new york city,1100,apartment,400,1,1,0,0,0,0,0,1,no laundry on site,off-street parking,41.143,-73.3683,ny
+7051241703,new york city,3995,apartment,900,2,1,1,1,1,0,0,0,laundry in bldg,,40.7064,-74.0157,ny
+7051232661,new york city,1987,apartment,800,2,1,0,0,1,0,0,0,no laundry on site,no parking,40.6225,-73.965,ny
+7051231445,new york city,3212,apartment,750,1,1,1,1,1,0,0,0,w/d in unit,,40.7496,-73.9365,ny
+7051231443,new york city,3200,apartment,700,2,1,0,0,1,0,0,0,w/d in unit,,40.7597,-73.9918,ny
+7051231208,new york city,3240,apartment,850,1,1,0,0,1,0,0,0,laundry in bldg,,40.7816,-73.9511,ny
+7051231052,new york city,2400,apartment,500,0,1,0,0,1,0,0,0,laundry in bldg,,40.7816,-73.9511,ny
+7051227121,new york city,3500,apartment,800,0,1,1,1,1,0,0,0,laundry in bldg,,40.7455,-74.0054,ny
+7051226466,new york city,3995,apartment,1000,3,1,1,1,1,0,0,0,laundry in bldg,,40.7053,-74.0162,ny
+7051226096,new york city,3320,apartment,720,1,1,1,1,1,0,0,0,laundry in bldg,,40.7704,-73.9922,ny
+7051222690,new york city,2100,apartment,825,1,1,0,0,1,1,0,0,,,40.7405,-73.9259,ny
+7051220745,new york city,2400,apartment,1100,3,2,0,0,1,0,0,0,no laundry on site,no parking,40.8184,-73.8958,ny
+7051217135,new york city,1350,apartment,600,0,1,0,0,1,0,0,0,laundry in bldg,street parking,40.9,-73.8622,ny
+7051217002,new york city,2100,apartment,1350,2,1,0,0,0,0,0,0,no laundry on site,no parking,40.7259,-73.9907,ny
+7051214890,new york city,1550,apartment,1200,1,1,0,0,0,0,0,0,no laundry on site,street parking,40.7851,-73.8096,ny
+7051214824,new york city,3675,apartment,730,1,1,1,1,1,0,0,0,w/d in unit,,40.7135,-73.9671,ny
+7051205447,new york city,5042,apartment,1000,2,2,1,1,1,0,0,0,laundry in bldg,attached garage,40.7446,-73.9345,ny
+7051205449,new york city,5995,apartment,1525,4,0,1,1,1,0,0,0,laundry in bldg,,40.7656,-73.9885,ny
+7051201134,new york city,1900,apartment,800,2,1,0,0,1,0,0,0,,,40.5766,-73.8428,ny
+7051199923,new york city,3350,apartment,700,1,1,1,1,1,0,0,0,laundry in bldg,attached garage,40.7446,-73.9345,ny
+7051195478,new york city,2773,apartment,550,0,1,1,1,1,0,0,0,laundry in bldg,attached garage,40.7446,-73.9345,ny
+7051193266,new york city,4000,apartment,1500,3,2,0,0,1,0,0,0,w/d in unit,off-street parking,40.7445,-74.0329,ny
+7051192958,new york city,2520,apartment,550,0,1,1,1,0,1,0,0,w/d in unit,,40.7446,-73.9345,ny
+7051189550,new york city,950,apartment,1200,3,1,0,0,1,0,0,1,w/d in unit,,40.8231,-73.9538,ny
+7051150304,new york city,3850,apartment,800,1,1,1,1,1,1,0,0,laundry in bldg,attached garage,40.7521,-73.9739,ny
+7051183408,new york city,1700,apartment,1056,2,1,1,1,1,0,0,0,w/d hookups,street parking,40.737,-74.1964,ny
+7051174405,new york city,2300,apartment,1000,3,1,0,0,0,1,0,0,no laundry on site,street parking,40.8429,-73.8214,ny
+7051169272,new york city,2552,apartment,100,0,1,0,0,1,0,0,0,laundry in bldg,,40.7402,-73.9996,ny
+7051159199,new york city,6545,apartment,1100,2,2,1,1,1,1,0,0,w/d in unit,detached garage,40.7238,-73.9918,ny
+7051153052,new york city,1460,apartment,650,1,1,0,0,1,1,0,0,laundry in bldg,off-street parking,41.2018,-73.4383,ny
+7051153010,new york city,4275,apartment,900,3,1,1,1,1,0,0,0,laundry in bldg,,40.7053,-74.0166,ny
+7051151508,new york city,3600,apartment,780,2,1,1,1,1,1,0,0,laundry in bldg,detached garage,40.732,-73.9825,ny
+7051150895,new york city,4990,apartment,990,3,1,1,1,1,1,0,0,laundry in bldg,detached garage,40.732,-73.9825,ny
+7051140522,new york city,2200,apartment,1300,2,1.5,0,0,1,0,0,0,w/d hookups,no parking,40.5979,-73.9743,ny
+7051148569,new york city,3800,apartment,850,2,1,1,1,1,1,0,0,laundry in bldg,attached garage,40.7556,-73.9684,ny
+7051146824,new york city,3200,apartment,720,1,1,1,1,1,1,0,0,laundry in bldg,attached garage,40.7533,-73.973,ny
+7051145983,new york city,2200,apartment,1000,3,2,1,1,0,0,0,0,w/d in unit,street parking,40.9518,-73.8852,ny
+7051145418,new york city,3395,apartment,800,1,1,0,0,1,1,0,0,laundry in bldg,attached garage,40.741,-73.977,ny
+7051144964,new york city,9200,apartment,1700,5,2,1,1,1,1,0,0,laundry in bldg,detached garage,40.7321,-73.9826,ny
+7051144195,new york city,1900,duplex,900,1,1,0,0,0,0,0,0,laundry in bldg,street parking,41.0093,-73.6785,ny
+7051144112,new york city,4495,apartment,720,1,1,1,1,1,1,0,0,w/d in unit,attached garage,40.7493,-73.976,ny
+7051141427,new york city,3395,apartment,700,1,1,1,1,1,1,0,0,laundry in bldg,attached garage,40.7414,-73.9787,ny
+7051127361,new york city,2900,apartment,2900,3,1,0,0,1,0,0,0,,,40.6973,-73.9071,ny
+7051126017,new york city,6500,apartment,1000,2,2,0,0,1,0,0,0,w/d in unit,street parking,40.6897,-73.9751,ny
+7051124824,new york city,2626,apartment,1450,3,2,0,0,1,0,0,0,no laundry on site,off-street parking,40.75,-73.7859,ny
+7051116591,new york city,5595,apartment,1800,2,2,1,0,0,0,0,0,,,40.8038,-73.9499,ny
+7051105174,new york city,1525,apartment,525,0,1,1,0,1,0,0,0,no laundry on site,,40.5775,-73.9552,ny
+7051104207,new york city,2199,apartment,1000,2,1,1,1,1,1,0,0,laundry in bldg,street parking,40.696,-73.8624,ny
+7051102295,new york city,2850,apartment,600,1,1,0,0,1,1,0,0,laundry on site,street parking,40.7366,-73.9814,ny
+7051100132,new york city,5850,apartment,1100,3,2,1,1,1,1,0,0,laundry in bldg,attached garage,40.7439,-73.98,ny
+7051098158,new york city,3400,apartment,760,1,1,1,1,1,1,0,0,laundry in bldg,detached garage,40.732,-73.9825,ny
+7051097652,new york city,3250,apartment,650,0,1,1,1,1,1,0,0,w/d in unit,attached garage,40.7461,-73.9782,ny
+7051094562,new york city,2325,apartment,560,1,1,1,1,1,0,1,0,laundry in bldg,attached garage,40.8188,-73.956,ny
+7051092747,new york city,1845,apartment,550,1,1,1,1,1,0,0,0,,,40.8785,-73.9162,ny
+7051092686,new york city,2400,apartment,750,2,1.5,1,1,1,0,0,0,,street parking,40.7095,-73.9563,ny
+7051092386,new york city,5500,apartment,1800,2,2.5,0,0,0,0,0,1,w/d in unit,street parking,40.6707,-73.9525,ny
+7051065118,new york city,2,apartment,2300,3,1,0,0,1,0,0,0,,,40.758,-73.917,ny
+7050320655,new york city,1750,apartment,400,0,1,1,0,1,0,0,0,,,40.7674,-73.955,ny
+7051092102,new york city,2095,apartment,380,0,1,0,1,1,0,0,0,laundry in bldg,attached garage,40.8188,-73.956,ny
+7051088582,new york city,2800,apartment,1000,3,1,0,0,1,0,0,0,,,40.7698,-73.9252,ny
+7051077425,new york city,1720,apartment,900,1,1,0,0,1,0,0,0,laundry in bldg,,40.6251,-74.0303,ny
+7051071476,new york city,2995,apartment,675,1,1,1,1,1,0,0,0,w/d in unit,,40.7709,-73.9205,ny
+7051070564,new york city,3895,apartment,850,2,1,1,1,1,1,0,0,laundry in bldg,street parking,40.7359,-73.986,ny
+7051068001,new york city,2699,apartment,1000,2,1,1,1,1,1,0,0,laundry in bldg,attached garage,40.6778,-73.8733,ny
+7051060824,new york city,25,apartment,1100,3,1,0,0,1,0,0,0,,,40.7552,-73.8815,ny
+7051059702,new york city,1650,apartment,780,1,1,1,1,1,0,0,0,,attached garage,41.0531,-73.539,ny
+7051059256,new york city,3300,apartment,1300,3,2,1,1,1,0,0,0,,,41.0531,-73.539,ny
+7051058871,new york city,2400,apartment,1500,3,1,0,0,1,0,0,0,no laundry on site,no parking,40.5839,-73.9536,ny
+7051058326,new york city,1899,apartment,943,2,1,1,1,1,0,0,0,,,41.0531,-73.539,ny
+7051054393,new york city,2450,apartment,850,2,1,1,1,1,0,0,0,,,40.7714,-73.8968,ny
+7051044946,new york city,1595,apartment,615,0,1,1,0,1,0,0,0,laundry in bldg,,40.5817,-73.9538,ny
+7051053960,new york city,2100,apartment,650,1,0,1,1,1,0,0,0,laundry on site,no parking,40.7484,-73.9967,ny
+7051053865,new york city,2600,apartment,995,2,2,1,1,1,0,0,0,,,40.8102,-73.9374,ny
+7051052572,new york city,1995,apartment,465,0,1,1,1,1,0,0,0,,,40.8102,-73.9374,ny
+7051052471,new york city,2325,apartment,943,1,1,1,1,1,0,0,0,laundry on site,,40.6702,-73.431,ny
+7051049522,new york city,3795,apartment,822,2,1,1,1,1,0,0,0,,,40.7091,-74.0146,ny
+7050990222,new york city,1950,apartment,500,1,1,1,1,1,0,0,1,laundry on site,off-street parking,41.0295,-73.645,ny
+7051043095,new york city,1850,apartment,500,1,1,1,0,1,0,0,0,no laundry on site,street parking,40.8183,-73.9426,ny
+7051042137,new york city,1350,apartment,500,0,1,0,0,1,0,0,0,laundry in bldg,street parking,40.7219,-73.8559,ny
+7051039268,new york city,7095,apartment,1000,2,2,0,0,1,0,0,0,w/d in unit,,40.7908,-73.9764,ny
+7051033330,new york city,1700,apartment,400,2,1,0,0,0,0,0,1,,,40.7321,-74.066,ny
+7051032766,new york city,3500,apartment,1750,4,2,0,0,1,0,0,0,laundry on site,off-street parking,41.0777,-73.7747,ny
+7051032526,new york city,1000,apartment,410,1,1,0,0,1,0,0,0,,,40.7259,-73.8598,ny
+7051024963,new york city,1449,apartment,529,0,1,0,1,0,0,0,0,laundry in bldg,detached garage,41.0888,-73.5435,ny
+7051018258,new york city,3000,condo,1077,2,2,1,1,1,0,0,0,w/d in unit,off-street parking,41.0254,-73.7637,ny
+7051013527,new york city,2800,apartment,900,2,1,1,1,1,0,0,0,,,40.7694,-73.9228,ny
+7051006587,new york city,3500,apartment,915,0,1,1,1,0,0,0,0,laundry in bldg,no parking,40.7006,-73.918,ny
+7051004103,new york city,1600,apartment,400,1,1,0,0,0,0,0,1,,,40.7321,-74.066,ny
+7051002152,new york city,1700,apartment,350,0,1,1,0,1,0,0,0,,street parking,40.6794,-73.9496,ny
+7051002002,new york city,5300,apartment,990,1,1.5,0,0,1,0,0,0,,attached garage,40.7651,-73.9638,ny
+7050992306,new york city,1700,apartment,750,1,1,1,0,0,0,0,0,laundry in bldg,off-street parking,41.1595,-73.8638,ny
+7050990553,new york city,2850,apartment,710,1,1,1,1,0,1,0,0,,,40.7685,-73.9588,ny
+7050987881,new york city,4300,apartment,20,2,1,1,1,1,0,0,0,laundry in bldg,,40.7148,-73.959,ny
+7050987140,new york city,1850,apartment,20,1,1,1,0,1,0,0,0,,,40.6967,-73.9005,ny
+7050986770,new york city,2195,apartment,704,1,1,1,1,1,0,0,0,laundry on site,,40.6702,-73.431,ny
+7050984952,new york city,3700,apartment,495,1,1,1,1,1,0,0,0,,,40.7344,-74.0001,ny
+7050980921,new york city,2950,apartment,685,1,1,1,1,1,0,0,0,laundry in bldg,,40.763,-73.9769,ny
+7050978735,new york city,2285,apartment,600,1,1,0,0,1,0,0,0,laundry in bldg,,40.7706,-73.9265,ny
+7050958609,new york city,2750,apartment,1000,2,1,1,1,0,1,0,1,laundry in bldg,valet parking,40.7227,-73.8484,ny
+7050973714,new york city,2200,apartment,900,1,1,1,1,1,0,0,0,,,40.6557,-74.0004,ny
+7050967979,new york city,2995,apartment,500,0,1,1,1,1,0,0,0,laundry in bldg,,40.7364,-73.9849,ny
+7050967798,new york city,4500,apartment,993,2,0,1,1,1,0,0,0,,,40.7626,-73.977,ny
+7050966642,new york city,1950,apartment,875,2,1,0,0,1,0,0,0,laundry in bldg,detached garage,41.0602,-73.5445,ny
+7050966475,new york city,2300,apartment,1000,2,1,1,0,1,0,0,0,,,40.6322,-74.0236,ny
+7050961284,new york city,2599,house,1200,3,1.5,1,1,1,0,0,0,no laundry on site,street parking,40.6766,-73.9249,ny
+7050961191,new york city,1950,apartment,600,1,1,1,1,1,0,0,0,w/d hookups,street parking,40.6924,-73.9666,ny
+7050960425,new york city,2350,apartment,1360,3,1,1,0,1,0,0,0,w/d in unit,,40.7051,-73.243,ny
+7050954339,new york city,2000,apartment,750,1,1,1,0,1,0,0,0,,,40.6412,-74.0133,ny
+7050953122,new york city,2100,apartment,900,2,1,1,1,1,0,0,0,,,40.6443,-73.998,ny
+7050952281,new york city,2000,apartment,700,1,1,1,1,1,0,0,0,,,40.6238,-74.0301,ny
+7050951259,new york city,1800,apartment,700,1,1,1,1,1,0,0,0,,,40.6443,-73.998,ny
+7050949296,new york city,2095,apartment,900,2,1,1,0,1,0,0,0,laundry in bldg,,40.6196,-74.0392,ny
+7050946702,new york city,2400,apartment,850,1,1,1,1,1,0,0,0,laundry in bldg,,40.6465,-74.0073,ny
+7050945029,new york city,2500,apartment,800,2,1,0,0,1,0,0,0,,,40.6815,-73.9742,ny
+7050943895,new york city,2250,apartment,990,4,1,1,1,1,0,0,0,w/d in unit,street parking,40.7271,-74.1563,ny
+7050941788,new york city,2300,house,1900,3,1,0,0,0,0,0,0,w/d in unit,off-street parking,41.2564,-73.2111,ny
+7050940269,new york city,2500,apartment,1050,2,1.5,0,0,0,0,0,0,laundry in bldg,street parking,40.7229,-73.8473,ny
+7050939991,new york city,1800,apartment,750,1,1,0,0,0,0,0,0,laundry in bldg,street parking,40.7749,-73.9807,ny
+7050938894,new york city,1600,condo,715,1,1.5,0,0,0,0,0,1,laundry in bldg,off-street parking,26.3462,-80.0844,ny
+7050937860,new york city,1350,apartment,896,1,1,0,0,0,0,0,0,,,40.7119,-73.7944,ny
+7050927336,new york city,2400,apartment,1100,2,2,1,1,0,0,0,0,w/d in unit,attached garage,41.0636,-73.5486,ny
+7050909200,new york city,2300,apartment,900,3,1.5,0,0,1,0,0,0,,off-street parking,40.6282,-74.1045,ny
+7050906355,new york city,3495,apartment,720,1,1,1,1,1,0,0,0,laundry in bldg,,40.7517,-73.9694,ny
+7050899217,new york city,3295,apartment,1500,3,2,1,1,1,0,0,0,,,40.7355,-73.8786,ny
+7050898703,new york city,5095,loft,1100,1,1,1,1,1,0,0,0,laundry in bldg,,40.7388,-74.0081,ny
+7050897755,new york city,2300,apartment,1700,3,1,0,0,1,0,0,0,w/d hookups,attached garage,40.5922,-74.1878,ny
+7050897363,new york city,3200,apartment,700,0,1,0,0,0,0,0,1,laundry in bldg,attached garage,40.7701,-73.9914,ny
+7050893070,new york city,1465,apartment,650,1,1,1,0,0,0,0,0,laundry in bldg,off-street parking,41.1668,-73.2163,ny
+7050891981,new york city,3200,apartment,700,2,1,0,0,1,0,0,0,w/d in unit,,40.7597,-73.9918,ny
+7050868086,new york city,2900,apartment,1100,2,1,1,0,1,0,0,0,w/d in unit,off-street parking,41.0765,-73.8592,ny
+7050885325,new york city,2325,apartment,943,1,1,1,1,1,0,0,0,laundry on site,,40.6702,-73.431,ny
+7050883186,new york city,4699,apartment,1200,3,2,1,1,1,0,0,0,w/d in unit,,40.6881,-73.9608,ny
+7050882440,new york city,1449,apartment,300,0,1,1,0,1,0,0,0,laundry in bldg,attached garage,40.5847,-73.971,ny
+7050880988,new york city,2295,apartment,950,2,1.5,0,0,1,0,0,0,laundry in bldg,attached garage,40.5895,-73.957,ny
+7050880530,new york city,2650,apartment,1200,3,2,0,0,1,0,0,0,,,40.6002,-73.7549,ny
+7050879089,new york city,1400,apartment,600,1,1,0,0,1,0,0,0,no laundry on site,street parking,41.0222,-73.6798,ny
+7050866051,new york city,2100,apartment,1100,1,1,1,0,1,0,0,0,laundry in bldg,street parking,41.0342,-73.7628,ny
+7050863641,new york city,2500,apartment,975,2,1,0,0,1,0,0,0,,attached garage,40.6251,-74.0303,ny
+7050863185,new york city,1850,apartment,666,1,1,0,0,1,0,0,0,,,40.936,-73.9028,ny
+7050862099,new york city,1449,apartment,529,0,1,0,1,0,0,0,0,laundry in bldg,detached garage,41.0888,-73.5435,ny
+7050861807,new york city,2950,apartment,670,2,1,1,1,1,0,1,0,laundry in bldg,off-street parking,40.7101,-74.0013,ny
+7050860484,new york city,1650,apartment,525,1,1,1,1,1,0,0,0,no laundry on site,off-street parking,40.5923,-73.7933,ny
+7050860094,new york city,3600,apartment,20,4,1.5,1,1,1,0,0,0,,,40.7006,-73.918,ny
+7050199936,new york city,2350,apartment,1500,3,1,0,0,1,0,0,0,,,40.5929,-73.9688,ny
+7050859507,new york city,3000,apartment,20,2,1,1,1,1,0,0,0,laundry in bldg,,40.6976,-73.931,ny
+7050858217,new york city,2750,apartment,600,1,1,1,1,1,0,0,0,,,40.7665,-73.9147,ny
+7050856233,new york city,1450,apartment,1000,1,1,1,1,0,0,0,0,laundry in bldg,off-street parking,41.1573,-73.2313,ny
+7050854912,new york city,2195,apartment,1200,2,1.5,1,1,1,0,0,0,laundry in bldg,off-street parking,41.0218,-73.7753,ny
+7050850506,new york city,4850,apartment,1200,3,2,1,0,1,0,0,0,w/d in unit,,40.6712,-73.9594,ny
+7050849141,new york city,790,apartment,990,1,1,1,1,1,0,0,0,laundry in bldg,attached garage,40.7303,-73.8585,ny
+7050842013,new york city,2875,apartment,529,0,1,1,1,1,0,0,0,,,40.7066,-74.0101,ny
+7050834289,new york city,2295,apartment,2295,1,1,0,0,0,0,0,0,laundry in bldg,street parking,40.7177,-73.8384,ny
+7050820446,new york city,3150,apartment,20,4,1,1,1,1,0,0,0,laundry in bldg,,40.6974,-73.9159,ny
+7050808138,new york city,2500,apartment,1200,3,2,0,0,1,0,0,0,laundry in bldg,,40.727,-73.8565,ny
+7050806912,new york city,1449,apartment,529,0,1,0,1,0,0,0,0,laundry in bldg,detached garage,41.0888,-73.5435,ny
+7050802102,new york city,3900,apartment,20,1,1,1,1,1,0,0,0,laundry in bldg,,40.7048,-73.9285,ny
+7050797173,new york city,1799,apartment,500,0,1,1,1,1,0,0,0,,,40.6724,-73.9622,ny
+7050796397,new york city,2195,apartment,900,1,1,1,1,1,0,0,0,,,40.7095,-73.9563,ny
+7050795185,new york city,840,apartment,990,1,1,1,1,1,0,0,0,laundry in bldg,attached garage,40.8508,-73.9151,ny
+7050791479,new york city,1800,apartment,700,1,1,0,0,1,0,0,0,,,40.7701,-73.9125,ny
+7050790379,new york city,2299,apartment,950,2,1.5,0,0,1,0,0,0,laundry in bldg,attached garage,40.5839,-73.9536,ny
+7050787142,new york city,2800,apartment,600,1,1,0,0,0,0,0,1,laundry in bldg,street parking,40.7975,-73.9683,ny
+7050783352,new york city,2499,apartment,1067,2,2,0,0,1,0,0,0,,,40.936,-73.9028,ny
+7050779851,new york city,4000,apartment,20,2,1,1,1,1,0,0,0,w/d in unit,,40.7223,-74.0036,ny
+7050779195,new york city,1900,apartment,775,1,1,0,0,1,0,0,0,,,40.9675,-73.7114,ny
+7050771178,new york city,3231,apartment,20,2,1,1,1,1,0,0,0,w/d in unit,attached garage,40.6996,-73.9329,ny
+7050765229,new york city,3025,apartment,20,1,1,1,1,1,0,0,0,w/d in unit,attached garage,40.7012,-73.9436,ny
+7050761578,new york city,2350,apartment,1500,3,1,0,0,1,0,0,0,,,40.5929,-73.9688,ny
+7050760299,new york city,1700,apartment,900,1,1,0,0,1,0,0,0,laundry in bldg,,40.6167,-73.9695,ny
+7050759659,new york city,2500,apartment,20,0,1,1,1,1,0,0,0,w/d in unit,attached garage,40.7006,-73.9338,ny
+7050757033,new york city,1875,apartment,550,1,1,0,0,1,0,0,0,,street parking,40.7095,-73.9563,ny
+7050754688,new york city,2325,apartment,943,1,1,1,1,1,0,0,0,laundry on site,,40.6702,-73.431,ny
+7050664130,new york city,2150,apartment,20,0,1,1,1,1,0,0,0,,,40.759,-73.9624,ny
+7050741423,new york city,3750,apartment,750,3,1,1,1,1,0,0,0,,,40.7085,-74.014,ny
+7050741322,new york city,5195,apartment,1100,4,2,1,1,1,0,0,0,,,40.7097,-74.0078,ny
+7050733662,new york city,2400,house,2700,4,2,0,1,1,0,0,0,laundry on site,off-street parking,42.1959,-73.3607,ny
+7050726855,new york city,1850,apartment,666,1,1,0,0,1,0,0,0,,,40.936,-73.9028,ny
+7050720817,new york city,1200,apartment,0,0,1,0,1,0,0,0,0,no laundry on site,no parking,41.0041,-73.6651,ny
+7050700561,new york city,2085,apartment,2085,0,1,1,1,0,0,0,0,laundry in bldg,street parking,40.8183,-73.9426,ny
+7050698822,new york city,2250,apartment,900,2,1,0,0,1,0,0,0,,,40.6936,-73.9062,ny
+7050626565,new york city,4199,apartment,1000,3,2,1,1,0,1,0,0,laundry in bldg,attached garage,40.701,-73.9106,ny
+7050624492,new york city,3995,apartment,1450,4,2.5,0,0,0,0,0,0,laundry in bldg,,40.7084,-73.898,ny
+7050623158,new york city,3500,apartment,800,2,1,1,1,0,0,0,1,w/d in unit,street parking,40.6907,-73.9274,ny
+7050620017,new york city,2700,apartment,897,3,2,0,0,0,0,0,0,laundry in bldg,,40.711,-73.8997,ny
+7050617793,new york city,2599,apartment,800,1,1.5,1,1,1,0,0,0,laundry in bldg,attached garage,40.701,-73.9106,ny
+7050614392,new york city,2300,house,1100,4,1,0,0,1,0,0,0,,,40.5979,-73.9743,ny
+7050609549,new york city,2800,apartment,1200,3,1,1,0,0,0,0,0,no laundry on site,street parking,40.6939,-73.9119,ny
+7050608576,new york city,3359,apartment,730,2,1,1,1,1,0,0,0,,,40.71,-74.0078,ny
+7050606420,new york city,2300,apartment,1100,3,1,1,0,1,0,0,0,laundry in bldg,street parking,40.9011,-73.9053,ny
+7050593430,new york city,2100,apartment,400,0,1,1,0,1,0,0,0,laundry on site,,40.7764,-73.9827,ny
+7050587456,new york city,4450,apartment,1000,2,2,1,1,1,0,0,0,,,40.7975,-73.9683,ny
+7050587362,new york city,4450,apartment,800,1,1,1,1,1,0,0,0,,,40.7402,-73.9996,ny
+7050579500,new york city,3830,apartment,624,1,1,1,1,1,0,0,0,w/d in unit,attached garage,40.778,-73.9884,ny
+7050575644,new york city,1899,apartment,20,0,1,1,1,1,0,0,0,laundry in bldg,off-street parking,40.6785,-73.9497,ny
+7050575423,new york city,1300,apartment,410,0,1,0,0,0,0,0,0,no laundry on site,street parking,40.6357,-74.0807,ny
+7050561308,new york city,2600,apartment,799,1,1,1,1,1,0,0,0,laundry in bldg,off-street parking,40.8117,-73.9518,ny
+7050557095,new york city,3850,apartment,2450,4,2,0,0,1,0,0,0,w/d in unit,,40.6719,-73.9392,ny
+7050556240,new york city,2875,apartment,529,0,1,1,1,1,0,0,0,,,40.7066,-74.0101,ny
+7050554773,new york city,2950,apartment,1000,3,2,0,0,0,0,0,0,no laundry on site,attached garage,40.6868,-73.823,ny
+7050553876,new york city,1700,apartment,900,1,1,0,0,1,0,0,0,laundry in bldg,,40.6167,-73.9695,ny
+7050553300,new york city,2350,apartment,1500,3,1,0,0,1,0,0,0,,,40.5929,-73.9688,ny
+7050548200,new york city,2500,apartment,1200,3,1,1,1,0,0,0,0,w/d in unit,street parking,40.6181,-74.0036,ny
+7050535486,new york city,2875,apartment,529,0,1,1,1,1,0,0,0,,,40.7066,-74.0101,ny
+7050520323,new york city,2875,apartment,529,0,1,1,1,1,0,0,0,,,40.7066,-74.0101,ny
+7050508398,new york city,3100,apartment,750,1,1,1,1,1,1,0,1,w/d in unit,attached garage,40.7443,-73.9742,ny
+7050507978,new york city,5009,apartment,1000,2,2,1,1,1,0,0,0,laundry in bldg,attached garage,40.7446,-73.9345,ny
+7050504486,new york city,2650,apartment,1050,3,2,0,1,1,0,0,0,laundry on site,street parking,40.6335,-74.027,ny
+7050504354,new york city,2908,apartment,700,1,1,1,1,1,0,0,0,laundry in bldg,,40.7446,-73.9345,ny
+7050502562,new york city,0,apartment,1100,2,1,1,1,0,0,0,0,w/d in unit,off-street parking,41.0888,-73.5435,ny
+7050498008,new york city,2200,apartment,1100,2,1,0,0,0,0,0,0,no laundry on site,off-street parking,40.679,-73.9062,ny
+7050496806,new york city,1800,apartment,700,1,1,0,0,1,0,0,0,,,40.7663,-73.9074,ny
+7050495438,new york city,2765,apartment,550,0,1,1,1,1,0,0,0,laundry in bldg,,40.7446,-73.9345,ny
+7050489969,new york city,1800,apartment,700,1,1,1,1,1,0,0,0,,carport,40.7711,-73.9027,ny
+7050487968,new york city,2550,apartment,800,2,1,0,0,1,0,0,0,laundry in bldg,street parking,40.6514,-73.9564,ny
+7050484417,new york city,1900,apartment,750,1,0,0,0,0,0,0,0,no laundry on site,,40.7239,-73.8997,ny
+7050481292,new york city,2500,apartment,1200,3,2,1,1,1,0,0,0,,,40.7428,-73.7588,ny
+7050468743,new york city,2650,apartment,1100,2,1,1,1,1,0,0,0,w/d in unit,no parking,40.7484,-73.9967,ny
+7050466383,new york city,2500,apartment,1400,3,2,1,1,1,0,0,0,,street parking,40.7048,-73.8784,ny
+7050458620,new york city,2500,apartment,1400,3,2,1,1,1,0,0,0,,street parking,40.7048,-73.8784,ny
+7050444852,new york city,2300,condo,1500,1,1,0,1,0,1,0,0,w/d in unit,off-street parking,41.1673,-73.8538,ny
+7050443963,new york city,3099,apartment,1000,2,1,0,0,1,0,0,0,,,40.6802,-73.968,ny
+7050443680,new york city,3400,townhouse,1530,3,2.5,1,1,1,0,0,0,w/d in unit,off-street parking,40.8154,-73.4716,ny
+7050443350,new york city,1995,duplex,750,2,1,1,1,1,0,0,0,laundry on site,,40.6784,-73.9211,ny
+7050434764,new york city,1950,house,800,2,1,1,1,1,0,0,0,,,40.584,-73.9349,ny
+7050434023,new york city,2200,apartment,800,2,1,0,1,1,0,0,0,no laundry on site,street parking,40.8608,-73.9269,ny
+7050433641,new york city,1900,apartment,650,1,1,0,0,0,0,0,0,,street parking,40.7155,-73.9489,ny
+7050427377,new york city,3150,apartment,20,4,1,1,1,1,0,0,0,w/d in unit,street parking,40.8274,-73.9468,ny
+7050422945,new york city,2275,apartment,1000,2,1,0,0,1,0,0,0,laundry on site,,40.7119,-73.7944,ny
+7050400207,new york city,3800,apartment,900,1,1,1,1,1,0,0,0,laundry in bldg,,40.7443,-73.9781,ny
+7050394697,new york city,2000,apartment,1500,3,1,0,0,1,0,0,0,laundry on site,street parking,40.5748,-74.0945,ny
+7050384175,new york city,3400,apartment,700,1,1,0,0,0,0,0,0,w/d in unit,no parking,40.6816,-73.9798,ny
+7050375130,new york city,1800,townhouse,1500,2,1,0,0,1,0,0,0,,,40.5973,-74.0768,ny
+7050367054,new york city,2100,townhouse,1800,3,2,0,0,1,0,0,0,,carport,40.5682,-74.1184,ny
+7050364517,new york city,4195,apartment,728,1,1,0,0,0,0,0,0,laundry in bldg,,40.6897,-73.992,ny
+7050359271,new york city,2195,apartment,1300,1,1,1,0,0,0,0,0,,,40.6841,-73.9563,ny
+7050354170,new york city,1950,townhouse,700,2,1,0,0,1,0,0,0,,,40.7428,-73.7588,ny
+7050350561,new york city,3300,apartment,1150,3,2,0,0,1,0,0,0,laundry in bldg,street parking,40.6845,-73.9524,ny
+7050320459,new york city,1750,apartment,400,0,1,1,0,1,0,0,0,,,40.7674,-73.955,ny
+7050320239,new york city,2600,apartment,600,2,1,1,0,1,0,0,0,,,40.742,-73.9792,ny
+7050319941,new york city,2600,apartment,600,2,1,1,0,1,0,0,0,,,40.742,-73.9792,ny
+7050319200,new york city,1750,apartment,450,1,1,1,0,0,0,0,0,no laundry on site,street parking,40.7221,-74.0469,ny
+7050316988,new york city,2875,apartment,529,0,1,1,1,1,0,0,0,laundry in bldg,,40.7056,-74.0083,ny
+7050306000,new york city,3290,apartment,720,1,1,1,1,1,0,0,0,laundry in bldg,attached garage,40.7728,-73.9549,ny
+7050304184,new york city,1100,apartment,750,0,1,0,0,0,0,0,0,no laundry on site,street parking,40.5589,-74.1721,ny
+7050293377,new york city,1500,apartment,850,2,1,1,0,0,0,0,0,laundry on site,detached garage,41.1323,-73.4058,ny
+7050283286,new york city,2300,apartment,800,2,1,0,1,1,0,0,0,no laundry on site,,40.7967,-73.9328,ny
+7050280444,new york city,2400,apartment,750,1,1,0,0,1,0,0,0,no laundry on site,street parking,40.6924,-73.9666,ny
+7050269893,new york city,2650,apartment,900,2,1.5,1,1,1,0,0,0,w/d in unit,,40.681,-73.9452,ny
+7050268028,new york city,1250,apartment,480,1,1,0,0,1,0,0,0,,,40.7343,-73.8504,ny
+7050262537,new york city,17,apartment,780,2,1,0,0,1,0,0,0,,,40.755,-73.8853,ny
+7050259678,new york city,1449,apartment,300,0,1,0,0,1,0,0,0,laundry in bldg,street parking,40.5979,-73.9743,ny
+7050256178,new york city,2450,apartment,550,0,1,0,0,0,0,0,1,w/d in unit,,40.7592,-73.9523,ny
+7050238400,new york city,3390,apartment,575,1,1,1,1,1,0,0,0,w/d in unit,,40.7622,-73.9955,ny
+7050235142,new york city,2150,apartment,1000,2,1,1,1,1,0,0,0,,,41.0888,-73.5435,ny
+7050234846,new york city,2030,apartment,800,1,1,1,1,1,0,0,0,,,41.0531,-73.539,ny
+7050233190,new york city,3695,apartment,786,2,1,1,1,1,1,0,0,laundry in bldg,attached garage,40.7841,-73.95,ny
+7050228637,new york city,3250,apartment,1300,3,2,1,1,1,0,0,0,w/d in unit,,41.0888,-73.5435,ny
+7050226477,new york city,3000,apartment,800,2,1,0,0,1,0,0,0,laundry in bldg,,40.7685,-73.9588,ny
+7050220055,new york city,1899,apartment,1078,2,1,1,1,1,0,0,0,,,41.0888,-73.5435,ny
+7050219907,new york city,2323,apartment,800,1,1,1,1,1,0,0,0,w/d in unit,attached garage,40.7888,-74.0115,ny
+7050217124,new york city,2200,apartment,700,1,1,0,0,1,0,0,0,w/d in unit,street parking,40.7242,-74.0444,ny
+7050216993,new york city,2700,apartment,1100,2,1,0,0,1,0,0,0,,,40.7608,-73.9295,ny
+7050209402,new york city,3100,apartment,875,2,1,1,1,1,0,0,0,laundry in bldg,attached garage,40.8246,-73.9507,ny
+7050208074,new york city,1400,apartment,750,1,1,1,0,0,0,0,1,laundry in bldg,street parking,40.6316,-74.0927,ny
+7050207722,new york city,2600,apartment,1198,2,2,1,1,0,1,0,0,w/d in unit,off-street parking,41.0959,-73.417,ny
+7050200522,new york city,2150,apartment,1290,3,1.5,0,0,1,0,0,0,w/d hookups,off-street parking,41.281,-73.932,ny
+7050197279,new york city,2299,apartment,950,2,1.5,0,0,1,0,0,0,laundry in bldg,attached garage,40.5839,-73.9536,ny
+7050197243,new york city,2500,house,1050,3,1,1,1,1,0,0,0,no laundry on site,street parking,40.5154,-74.0027,ny
+7050195539,new york city,1400,apartment,350,2,1,1,1,0,0,0,0,no laundry on site,street parking,40.7815,-74.0198,ny
+7050195490,new york city,1700,apartment,900,1,1,0,0,1,0,0,0,laundry in bldg,,40.6167,-73.9695,ny
+7050186017,new york city,2100,house,800,1,1,1,0,0,0,0,1,no laundry on site,street parking,40.684,-73.9557,ny
+7050185443,new york city,3750,apartment,750,3,1,1,1,1,0,0,0,,,40.7085,-74.014,ny
+7050153994,new york city,2200,apartment,980,2,1,0,0,0,0,0,1,no laundry on site,street parking,40.6982,-73.8345,ny
+7050185398,new york city,5195,apartment,1100,4,2,1,1,1,0,0,0,,,40.7097,-74.0078,ny
+7050176413,new york city,1800,apartment,630,1,1,1,1,0,0,0,0,no laundry on site,no parking,40.7446,-73.9345,ny
+7050174740,new york city,2875,apartment,529,0,1,1,1,1,0,0,0,laundry in bldg,,40.7066,-74.0101,ny
+7050173641,new york city,2100,apartment,850,2,1,1,0,1,0,0,0,laundry in bldg,attached garage,40.584,-73.969,ny
+7050172275,new york city,2295,apartment,950,2,1.5,0,0,1,0,0,0,laundry in bldg,attached garage,40.5895,-73.957,ny
+7050170191,new york city,1985,apartment,950,1,1,0,0,1,0,0,0,laundry in bldg,off-street parking,41.0162,-73.7969,ny
+7050169523,new york city,2400,house,1000,3,2,0,0,1,0,0,0,,street parking,40.738,-73.793,ny
+7050154333,new york city,3536,apartment,950,1,1,1,1,1,0,0,0,w/d in unit,attached garage,40.7481,-73.9398,ny
+7050151944,new york city,1595,apartment,725,1,1,0,0,1,0,0,0,laundry in bldg,off-street parking,41.0632,-73.5325,ny
+7050150795,new york city,3600,apartment,825,1,1,1,1,1,0,0,0,laundry in bldg,,40.7779,-73.9457,ny
+7050130528,new york city,2999,apartment,800,3,0,1,1,1,0,0,0,,,40.6847,-73.9579,ny
+7050130441,new york city,3600,apartment,900,3,2,1,1,1,0,0,0,laundry in bldg,,40.713,-73.9411,ny
+7050122762,new york city,3415,apartment,561,1,1,1,1,1,0,0,0,laundry in bldg,attached garage,40.6811,-73.9557,ny
+7050121766,new york city,3208,apartment,597,2,1,1,1,1,0,0,0,laundry in bldg,attached garage,40.6811,-73.9557,ny
+7049956521,new york city,2200,apartment,800,1,1,0,0,1,0,0,0,w/d in unit,attached garage,40.6924,-73.9666,ny
+7050120645,new york city,2815,apartment,534,1,1,1,1,1,0,0,0,laundry in bldg,attached garage,40.6811,-73.9557,ny
+7050119474,new york city,2446,apartment,403,0,1,1,1,1,0,0,0,laundry in bldg,attached garage,40.6811,-73.9557,ny
+7050118563,new york city,2285,apartment,412,0,1,1,1,1,0,0,0,laundry in bldg,street parking,40.6811,-73.9557,ny
+7050112349,new york city,2799,apartment,385,0,1,0,0,1,0,0,0,laundry in bldg,street parking,40.7346,-73.9822,ny
+7050090620,new york city,1425,apartment,470,0,1,1,0,1,0,0,0,laundry in bldg,detached garage,40.9079,-73.838,ny
+7050088660,new york city,1325,apartment,800,2,1,0,0,1,0,0,0,no laundry on site,carport,40.7946,-74.1631,ny
+7050079252,new york city,1700,apartment,1000,2,1,0,0,1,0,0,0,w/d hookups,carport,40.7946,-74.1631,ny
+7050074131,new york city,3359,apartment,730,2,1,1,1,1,0,0,0,,,40.71,-74.0078,ny
+7050073812,new york city,1750,apartment,1100,3,1,0,0,1,0,0,0,w/d hookups,carport,40.7946,-74.1631,ny
+7050069483,new york city,4750,apartment,1100,2,1,1,1,1,0,0,0,,,40.7571,-73.9657,ny
+7050069467,new york city,3750,apartment,962,1,1,1,1,1,0,0,0,,,40.7571,-73.9657,ny
+7050066125,new york city,1250,apartment,760,1,1,0,0,0,0,0,1,laundry in bldg,,41.1928,-73.2402,ny
+7050062088,new york city,2700,house,1300,3,2,0,0,1,0,0,0,,attached garage,40.9764,-73.9676,ny
+7050059652,new york city,1300,apartment,620,1,1,0,0,1,0,0,0,no laundry on site,street parking,40.5199,-74.2061,ny
+7050059586,new york city,2980,townhouse,1521,3,2.5,0,0,1,0,0,0,w/d in unit,,40.5886,-73.7916,ny
+7049732834,new york city,1802,apartment,825,1,1,0,1,1,0,0,0,laundry in bldg,attached garage,40.9249,-73.7889,ny
+7050058461,new york city,2700,apartment,1400,3,2,1,1,1,0,0,0,laundry on site,off-street parking,41.084,-73.9278,ny
+7050051464,new york city,1650,house,1800,1,1,0,0,0,0,0,1,laundry in bldg,detached garage,40.865,-73.6277,ny
+7050050935,new york city,2400,townhouse,1860,3,1.5,0,0,1,0,0,0,w/d in unit,attached garage,40.5571,-74.1411,ny
+7050046934,new york city,3480,apartment,650,1,1,1,1,0,1,0,1,laundry in bldg,attached garage,40.7561,-73.9968,ny
+7050038227,new york city,2500,apartment,800,2,1,0,0,1,0,0,0,,detached garage,40.7046,-73.8309,ny
+7050014407,new york city,2000,apartment,380,0,1,1,1,1,0,0,0,laundry in bldg,attached garage,40.8246,-73.9507,ny
+7050011369,new york city,2400,house,1600,3,1.5,0,0,0,0,0,0,w/d in unit,carport,40.6069,-74.1657,ny
+7050008845,new york city,2200,apartment,600,1,1,1,1,1,0,0,0,w/d in unit,street parking,40.8447,-73.9389,ny
+7050005988,new york city,5042,apartment,1000,2,2,1,1,1,0,0,0,w/d in unit,,40.7446,-73.9345,ny
+7050002138,new york city,3099,apartment,850,1,1,1,1,1,0,0,0,w/d in unit,,40.7446,-73.9577,ny
+7050001621,new york city,3536,apartment,700,1,1,1,1,1,0,0,0,w/d in unit,,40.7446,-73.9345,ny
+7049978852,new york city,2450,apartment,850,2,1,1,1,1,0,0,0,,,40.7714,-73.8968,ny
+7049978429,new york city,2500,apartment,600,1,1,0,0,1,0,0,0,,,40.7615,-73.9184,ny
+7049978048,new york city,2600,apartment,950,3,1,1,1,1,0,0,0,,,40.7611,-73.9096,ny
+7049974782,new york city,2350,apartment,650,1,1,0,0,1,0,0,0,,,40.7314,-73.9826,ny
+7049967067,new york city,3499,apartment,1600,3,1,1,1,1,0,0,0,,,40.6908,-73.9559,ny
+7049964769,new york city,1625,house,700,1,1,1,0,0,0,0,0,,off-street parking,40.7123,-73.8562,ny
+7049958425,new york city,2399,apartment,750,2,1,1,0,1,0,0,0,,,40.6936,-73.9198,ny
+7049947914,new york city,2695,apartment,20,4,2,0,0,1,0,0,0,,,40.6822,-73.9157,ny
+7049945785,new york city,2600,apartment,900,3,2,1,1,1,0,0,0,,,40.6871,-73.9236,ny
+7049940609,new york city,3800,apartment,900,1,1,1,1,1,0,0,0,laundry in bldg,,40.7443,-73.9781,ny
+7049935097,new york city,1500,apartment,1100,2,1,1,0,1,0,0,0,laundry in bldg,off-street parking,41.465,-73.398,ny
+7049932366,new york city,1350,apartment,900,1,1,0,0,0,0,0,0,,attached garage,41.0592,-73.7395,ny
+7049931950,new york city,4400,townhouse,2563,3,3.5,0,1,1,0,0,0,w/d in unit,attached garage,40.9719,-73.7181,ny
+7049926550,new york city,2325,apartment,943,1,1,1,1,1,0,0,0,laundry on site,,40.6702,-73.431,ny
+7049334314,new york city,1500,apartment,600,1,1,0,0,0,0,0,0,no laundry on site,street parking,40.9179,-73.9044,ny
+7049915902,new york city,2000,apartment,20,1,1,0,0,1,0,0,0,laundry in bldg,,40.6865,-73.9077,ny
+7049911055,new york city,1900,apartment,770,1,1,0,1,0,1,0,1,laundry in bldg,street parking,40.5909,-73.9669,ny
+7049888878,new york city,2100,apartment,700,1,1,0,0,0,0,0,0,w/d in unit,,41.0549,-73.6594,ny
+7049886821,new york city,1449,apartment,529,0,1,0,1,0,0,0,0,laundry in bldg,detached garage,41.0888,-73.5435,ny
+7049886647,new york city,16,apartment,525,1,1,1,1,1,0,0,0,,,40.7438,-73.9243,ny
+7049874227,new york city,1800,apartment,750,1,1,1,0,1,0,0,0,no laundry on site,no parking,40.759,-73.9159,ny
+7049871215,new york city,2900,apartment,605,1,1,1,1,1,0,0,1,laundry in bldg,attached garage,40.7012,-73.9436,ny
+7049853912,new york city,1,apartment,900,2,1,0,0,1,0,0,0,,,40.7013,-73.8048,ny
+7049853188,new york city,2,apartment,2300,3,1,0,0,1,0,0,0,,,40.758,-73.917,ny
+7049852397,new york city,1000,apartment,410,1,1,0,0,1,0,0,0,,,40.7259,-73.8598,ny
+7049842957,new york city,2800,apartment,800,2,1,0,0,1,0,0,0,laundry in bldg,,40.7706,-73.9265,ny
+7049841521,new york city,2285,apartment,600,1,1,0,0,1,0,0,0,laundry in bldg,,40.7706,-73.9265,ny
+7049817704,new york city,2650,apartment,650,1,1,0,0,1,0,0,0,,,40.7215,-73.9885,ny
+7049816908,new york city,2900,apartment,1145,2,2,0,0,1,0,0,0,w/d in unit,attached garage,41.1382,-73.346,ny
+7049801834,new york city,2250,duplex,1886,3,1.5,1,1,1,0,0,0,laundry on site,off-street parking,40.6664,-74.1192,ny
+7049787589,new york city,1590,apartment,550,2,1,0,0,1,0,0,0,,,40.6252,-73.9465,ny
+7049774210,new york city,2400,house,2700,4,2,0,1,1,0,0,0,laundry on site,off-street parking,42.1959,-73.3607,ny
+7049770518,new york city,4200,apartment,617,1,1,1,1,1,0,0,0,w/d in unit,,40.7597,-73.9918,ny
+7049768303,new york city,6500,apartment,968,2,2,1,1,1,0,0,0,w/d in unit,,40.7597,-73.9918,ny
+7049766777,new york city,1500,apartment,700,1,1,1,0,1,0,0,0,laundry in bldg,street parking,40.6251,-74.0303,ny
+7049766517,new york city,1500,apartment,650,1,1,0,0,0,0,0,1,,street parking,40.8064,-72.8566,ny
+7049764921,new york city,4695,apartment,700,2,1,1,1,1,0,0,1,,,40.7262,-73.9796,ny
+7049760158,new york city,2600,apartment,995,2,2,1,1,1,0,0,0,,,40.8102,-73.9374,ny
+7049717020,new york city,3800,apartment,1000,3,2,0,0,1,0,0,0,w/d in unit,,40.6628,-73.9546,ny
+7049704735,new york city,2200,apartment,1100,2,2,1,1,0,1,1,1,w/d in unit,attached garage,40.7798,-74.01,ny
+7049703993,new york city,3100,condo,1127,2,2,0,0,1,0,0,0,w/d in unit,off-street parking,41.033,-73.7652,ny
+7049702500,new york city,2250,apartment,950,2,1,0,1,1,0,0,0,laundry in bldg,,40.9002,-73.781,ny
+7049701660,new york city,2200,apartment,1100,2,2,1,1,0,1,1,1,w/d in unit,attached garage,40.7798,-74.01,ny
+7049700665,new york city,1750,apartment,400,0,1,1,0,1,0,0,0,,,40.7674,-73.955,ny
+7049700346,new york city,2600,apartment,600,2,1,1,0,1,0,0,0,,,40.742,-73.9792,ny
+7049700028,new york city,1750,apartment,400,0,1,1,0,1,0,0,0,,,40.7674,-73.955,ny
+7049699798,new york city,2600,apartment,600,2,1,1,0,1,0,0,0,,,40.742,-73.9792,ny
+7049699112,new york city,1950,apartment,650,1,1,0,0,1,0,0,0,,,40.7902,-73.9453,ny
+7049696354,new york city,2350,apartment,1500,3,1,0,0,1,0,0,0,,,40.5929,-73.9688,ny
+7049695413,new york city,1700,apartment,900,1,1,0,0,1,0,0,0,laundry in bldg,,40.6167,-73.9695,ny
+7049687189,new york city,2100,house,950,2,1,0,0,1,0,0,0,,street parking,40.7459,-73.8163,ny
+7049672477,new york city,3080,apartment,640,1,1,1,1,1,0,1,0,w/d in unit,attached garage,40.7143,-74.006,ny
+7049670180,new york city,1500,apartment,650,1,1,0,0,0,0,0,1,,street parking,40.8066,-72.841,ny
+7049650086,new york city,1995,townhouse,690,1,1,1,1,1,0,0,0,,,40.6504,-74.005,ny
+7049649885,new york city,2400,apartment,2400,3,2,0,0,1,0,0,0,,carport,40.7667,-73.8241,ny
+7049369382,new york city,1500,apartment,700,1,1,0,0,1,0,0,0,no laundry on site,street parking,41.0765,-73.8592,ny
+7049644561,new york city,1449,apartment,529,0,1,0,1,0,0,0,0,laundry in bldg,detached garage,41.0888,-73.5435,ny
+7049634161,new york city,2750,apartment,1200,3,2,1,0,1,0,0,0,laundry in bldg,off-street parking,40.9288,-73.8054,ny
+7049625962,new york city,2300,apartment,700,1,1,0,0,0,0,0,1,w/d in unit,street parking,41.0957,-73.4285,ny
+7049621754,new york city,2100,apartment,1100,3,1,0,0,1,0,0,0,,,40.6169,-74.0237,ny
+7049620763,new york city,1600,apartment,750,2,1,0,0,1,0,0,0,,,40.5946,-73.9566,ny
+7049616531,new york city,2500,apartment,1000,3,0,0,0,1,0,0,0,,,40.888,-73.8637,ny
+7049615987,new york city,2280,apartment,1270,2,2,0,0,0,1,0,0,laundry in bldg,attached garage,40.9225,-73.8371,ny
+7049614903,new york city,1798,apartment,768,2,1,0,0,0,0,0,0,,,40.8486,-73.8999,ny
+7049443508,new york city,2200,apartment,1100,3,1,0,0,1,0,0,0,,,40.5924,-73.9533,ny
+7049613333,new york city,2099,apartment,450,0,1,0,1,1,0,0,0,laundry in bldg,,40.6785,-73.9497,ny
+7049611080,new york city,1750,apartment,475,0,1,1,1,1,0,0,0,,,40.6782,-73.9441,ny
+7049587440,new york city,1899,apartment,1078,2,1,1,1,1,0,0,0,,,41.0531,-73.539,ny
+7049586352,new york city,3250,apartment,1300,3,2,1,1,1,0,0,0,w/d in unit,,41.0531,-73.539,ny
+7049581697,new york city,3600,apartment,825,1,1,1,1,1,0,0,0,laundry in bldg,,40.7779,-73.9457,ny
+7049579448,new york city,3750,apartment,750,3,1,1,1,1,0,0,0,,,40.7085,-74.014,ny
+7049579371,new york city,5195,apartment,1100,4,2,1,1,1,0,0,0,,,40.7097,-74.0078,ny
+7049576568,new york city,1800,apartment,650,1,1,0,0,1,0,0,0,,,40.7627,-73.9149,ny
+7049575812,new york city,2400,apartment,1100,3,1,0,0,1,0,0,0,,,40.7734,-73.929,ny
+7049568762,new york city,1450,apartment,500,1,1,0,0,0,0,0,0,no laundry on site,off-street parking,41.151,-73.4944,ny
+7049557815,new york city,3500,apartment,755,1,1,1,1,1,0,0,0,w/d in unit,,40.7271,-73.9766,ny
+7049413852,new york city,3600,apartment,900,3,2,1,1,1,0,0,0,laundry in bldg,,40.713,-73.9411,ny
+7049556059,new york city,3295,loft,700,1,1,1,0,1,0,0,0,,,40.7278,-73.9913,ny
+7049553400,new york city,2250,apartment,700,2,2,0,1,1,0,0,0,w/d in unit,detached garage,40.7667,-73.8241,ny
+7049550281,new york city,5395,loft,1500,2,1,1,0,1,0,0,0,w/d in unit,,40.7198,-73.9875,ny
+7049549611,new york city,4495,apartment,700,1,1,0,0,1,0,0,0,laundry in bldg,,40.727,-74.0034,ny
+7049548382,new york city,3800,apartment,750,1,1,0,0,0,1,0,0,laundry in bldg,,40.7672,-73.9841,ny
+7049547579,new york city,3975,apartment,1000,1,1,1,0,1,0,0,0,laundry in bldg,,40.7249,-73.9844,ny
+7049546352,new york city,2515,apartment,610,1,1,1,1,1,0,0,0,,,40.7085,-74.0064,ny
+7049540670,new york city,1895,apartment,20,1,1,1,1,1,0,0,0,,,40.7062,-73.9078,ny
+7049492366,new york city,2600,apartment,1300,3,1,1,1,0,0,0,0,w/d hookups,off-street parking,40.675,-73.882,ny
+7049486358,new york city,4450,apartment,800,1,1,1,1,1,0,0,0,,,40.7383,-73.9966,ny
+7049486331,new york city,4450,apartment,1000,2,2,1,1,1,0,0,0,,,40.7975,-73.9683,ny
+7049474925,new york city,2300,apartment,900,3,1,0,0,1,0,0,0,,,40.6769,-73.8448,ny
+7049472623,new york city,2295,apartment,700,1,1,1,1,1,0,0,0,laundry in bldg,street parking,40.6775,-73.9435,ny
+7049468452,new york city,3100,condo,1427,2,2,0,0,0,0,0,0,w/d in unit,carport,41.3277,-73.6901,ny
+7049452917,new york city,3359,apartment,730,2,1,1,1,1,0,0,0,,,40.71,-74.0078,ny
+7049437080,new york city,2225,apartment,800,1,1,1,1,1,0,0,0,,,40.8135,-73.9381,ny
+7049435013,new york city,2400,apartment,1400,3,1,0,0,1,0,0,0,,,40.6023,-73.9461,ny
+7049432137,new york city,3000,apartment,900,3,1,0,0,0,0,0,0,no laundry on site,street parking,40.716,-73.8078,ny
+7049432097,new york city,1500,apartment,750,1,1,0,0,0,0,0,0,,off-street parking,40.6324,-74.1171,ny
+7049428933,new york city,1895,apartment,20,1,1,1,1,1,0,0,0,,,40.7062,-73.9078,ny
+7049425105,new york city,1700,house,875,2,1,0,0,1,0,0,0,,,40.6011,-74.097,ny
+7049424057,new york city,2200,house,1100,3,1,0,0,1,0,0,0,,,40.5935,-73.952,ny
+7049419740,new york city,1850,apartment,20,1,1,1,0,1,0,0,0,,,40.6967,-73.9005,ny
+7049419280,new york city,2300,apartment,20,2,1,0,1,1,0,0,0,,,40.7048,-73.9111,ny
+7049413375,new york city,1800,apartment,600,1,1,1,0,0,0,0,0,,,40.7763,-73.911,ny
+7049406427,new york city,4499,duplex,1500,2,1,1,1,1,0,0,0,w/d in unit,,40.67,-73.982,ny
+7049402256,new york city,2980,apartment,1200,2,2,0,0,1,0,0,0,laundry in bldg,,40.7661,-73.9199,ny
+7049402161,new york city,1950,apartment,900,3,1,1,1,0,0,0,0,w/d in unit,street parking,40.718,-74.0754,ny
+7049401718,new york city,2980,apartment,1200,2,2,0,0,1,0,0,0,laundry in bldg,,40.7665,-73.9197,ny
+7049388740,new york city,2400,apartment,950,3,1,0,0,1,0,0,0,w/d in unit,street parking,40.7112,-73.8538,ny
+7049385777,new york city,1850,apartment,750,1,1,1,1,1,0,0,0,,,40.766,-73.9199,ny
+7049385524,new york city,3499,duplex,950,2,1.5,1,1,1,0,0,0,w/d in unit,,40.6869,-73.9617,ny
+7049379077,new york city,1850,apartment,750,1,1,1,1,1,0,0,0,,,40.766,-73.92,ny
+7049366286,new york city,3500,apartment,1200,3,2,0,0,0,0,0,0,w/d in unit,attached garage,41.0592,-73.7395,ny
+7049356498,new york city,1875,apartment,550,0,1,1,1,1,0,0,0,,,40.8135,-73.9381,ny
+7049346095,new york city,5450,apartment,900,2,1,1,1,0,1,0,1,no laundry on site,no parking,40.7651,-73.9858,ny
+7049344888,new york city,5500,apartment,850,3,2,1,1,1,0,0,0,laundry in bldg,street parking,40.7095,-73.9563,ny
+7049343191,new york city,1900,apartment,380,2,1,1,0,1,0,0,0,,,40.7559,-73.9123,ny
+7049342020,new york city,4000,apartment,1350,4,2.5,0,0,0,0,0,0,laundry in bldg,,40.7103,-73.8994,ny
+7049338087,new york city,4850,apartment,1200,3,2,1,0,1,0,0,0,w/d in unit,,40.6711,-73.9587,ny
+7049325364,new york city,1699,apartment,700,1,1,1,1,1,0,0,0,laundry in bldg,carport,40.7674,-74.0323,ny
+7049322647,new york city,2400,house,1650,3,1.5,0,0,0,0,0,0,w/d hookups,carport,40.6431,-74.1128,ny
+7049317282,new york city,2285,apartment,600,1,1,0,0,1,0,0,0,laundry in bldg,,40.7706,-73.9265,ny
+7049301672,new york city,2950,apartment,685,1,1,1,1,1,0,0,0,laundry in bldg,,40.763,-73.9769,ny
+7049300402,new york city,17,apartment,780,2,1,0,0,1,0,0,0,,,40.755,-73.8853,ny
+7049298886,new york city,3200,apartment,800,2,1,0,0,1,0,0,0,,,40.7515,-73.9707,ny
+7049296947,new york city,1449,apartment,529,0,1,0,1,0,0,0,0,laundry in bldg,detached garage,41.0888,-73.5435,ny
+7049293770,new york city,2750,apartment,1250,3,2,1,1,1,0,0,0,laundry in bldg,street parking,40.6762,-73.8736,ny
+7049291054,new york city,3000,apartment,1275,3,1,1,1,1,0,0,0,laundry in bldg,street parking,40.6815,-73.9418,ny
+7049289368,new york city,4500,house,3200,4,2.5,0,0,1,0,0,0,w/d in unit,attached garage,41.424,-73.4716,ny
+7049286919,new york city,1625,apartment,750,1,1,1,1,1,0,0,0,w/d in unit,,41.0531,-73.539,ny
+7049283684,new york city,2600,apartment,600,2,1,1,0,1,0,0,0,,,40.742,-73.9792,ny
+7049282391,new york city,1700,apartment,1000,3,1,1,0,1,0,0,0,,,40.702,-74.089,ny
+7049271137,new york city,1449,apartment,529,0,1,0,1,0,0,0,0,laundry in bldg,detached garage,41.0888,-73.5435,ny
+7049270235,new york city,3200,apartment,700,1,1,0,0,0,0,0,0,laundry on site,no parking,40.7225,-73.9491,ny
+7049248363,new york city,2850,apartment,500,0,1,1,1,1,1,1,1,laundry in bldg,street parking,40.7466,-73.9781,ny
+7049265737,new york city,4855,apartment,1300,3,2,1,1,1,0,0,0,laundry in bldg,,40.6521,-74.0018,ny
+7049263937,new york city,3495,apartment,1000,2,1,1,0,1,0,0,0,laundry in bldg,,40.6718,-73.9625,ny
+7049262675,new york city,4354,apartment,1500,3,2,1,1,1,0,0,0,w/d in unit,attached garage,40.654,-73.9528,ny
+7049260912,new york city,3117,apartment,1000,2,1,1,1,1,0,0,0,w/d in unit,attached garage,40.654,-73.9528,ny
+7049255668,new york city,5999,apartment,1500,4,2,1,1,1,0,0,0,w/d in unit,,40.6669,-73.9828,ny
+7049255393,new york city,1650,apartment,1450,2,2,1,0,1,0,0,0,w/d hookups,off-street parking,41.3877,-73.4589,ny
+7049253281,new york city,2195,apartment,704,1,1,1,1,1,0,0,0,laundry on site,,40.6702,-73.431,ny
+7049252118,new york city,3875,apartment,1000,2,2,1,1,1,0,0,0,laundry in bldg,,40.6521,-74.0018,ny
+7049251276,new york city,3195,apartment,1450,2,2.5,0,0,0,0,0,0,w/d in unit,attached garage,41.0218,-73.6337,ny
+7049251124,new york city,1720,apartment,900,1,1,0,0,1,0,0,0,laundry in bldg,,40.6251,-74.0303,ny
+7049249496,new york city,2145,apartment,1300,3,2,0,0,0,0,0,0,no laundry on site,off-street parking,40.6621,-73.7353,ny
+7049172205,new york city,2,apartment,1000,3,1,0,0,1,0,0,0,,,40.7518,-73.9066,ny
+7049243897,new york city,2850,apartment,650,1,1,1,1,1,0,0,0,laundry in bldg,street parking,40.7203,-73.9444,ny
+7049236363,new york city,6500,apartment,1050,4,2,0,0,1,0,0,0,laundry in bldg,street parking,40.7151,-73.9564,ny
+7049229257,new york city,1695,apartment,900,1,1,1,1,1,0,0,0,laundry in bldg,,40.6161,-73.9563,ny
+7049228378,new york city,2400,apartment,750,2,1.5,1,1,1,0,0,0,,street parking,40.7095,-73.9563,ny
+7049225110,new york city,2899,apartment,750,1,1,1,1,1,0,0,0,w/d in unit,,40.7761,-73.9358,ny
+7049224643,new york city,3099,apartment,850,1,1,1,1,1,0,0,0,w/d in unit,,40.7446,-73.9577,ny
+7049223285,new york city,3795,apartment,822,2,1,1,1,1,0,0,0,,,40.7091,-74.0146,ny
+7049222726,new york city,2536,apartment,625,1,1,0,0,1,0,0,0,laundry in bldg,,40.7713,-73.9216,ny
+7049167785,new york city,25,apartment,1100,3,1,0,0,1,0,0,0,,,40.7552,-73.8815,ny
+7049221419,new york city,2999,apartment,700,1,1,1,1,1,0,0,0,w/d in unit,,40.7704,-73.9164,ny
+7049208308,new york city,2350,duplex,990,2,1.5,1,1,0,0,0,0,w/d in unit,off-street parking,41.151,-73.4944,ny
+7049208325,new york city,2800,apartment,900,2,1,1,1,1,0,0,0,laundry in bldg,,40.7694,-73.9228,ny
+7049204479,new york city,2350,apartment,1000,2,1,1,1,1,0,0,0,,,40.7104,-73.9094,ny
+7049195785,new york city,1400,apartment,400,1,1,0,0,1,0,0,0,no laundry on site,no parking,40.6628,-73.9546,ny
+7049191425,new york city,1449,apartment,529,0,1,0,1,0,0,0,0,laundry in bldg,detached garage,41.0888,-73.5435,ny
+7049165533,new york city,2050,apartment,1300,3,1,0,0,0,0,0,0,no laundry on site,off-street parking,40.9176,-73.8593,ny
+7049164938,new york city,2550,apartment,600,1,1,0,0,1,0,0,0,,,40.7615,-73.9184,ny
+7049160119,new york city,3100,house,1200,5,2,0,0,0,0,0,0,w/d in unit,carport,40.7623,-73.523,ny
+7049148634,new york city,2284,apartment,600,1,1,0,0,1,0,0,0,laundry in bldg,,40.7706,-73.9265,ny
+7049148376,new york city,2800,apartment,800,2,1,0,0,1,0,0,0,laundry in bldg,,40.7706,-73.9265,ny
+7049141953,new york city,2599,house,1200,3,1.5,1,1,1,0,0,0,no laundry on site,street parking,40.6766,-73.9249,ny
+7049138142,new york city,5500,apartment,1000,3,2,1,1,1,1,0,0,w/d in unit,attached garage,40.7475,-73.9809,ny
+7049135848,new york city,2000,apartment,1000,2,1,1,1,1,0,0,0,w/d in unit,off-street parking,41.1222,-73.4358,ny
+7049106299,new york city,2300,apartment,1000,3,1,1,1,0,0,0,0,no laundry on site,no parking,40.6251,-74.0303,ny
+7049105802,new york city,1000,apartment,410,1,1,0,0,1,0,0,0,,,40.7259,-73.8598,ny
+7049105596,new york city,1550,apartment,1000,1,1,0,0,1,0,0,0,laundry in bldg,street parking,40.5763,-73.9612,ny
+7049103654,new york city,16,apartment,525,1,1,1,1,1,0,0,0,,,40.7438,-73.9243,ny
+7049099085,new york city,2199,apartment,1000,2,1,1,1,1,1,0,0,laundry in bldg,street parking,40.696,-73.8624,ny
+7049091730,new york city,1900,townhouse,1150,3,2,0,0,1,0,0,0,w/d hookups,off-street parking,40.5605,-74.1059,ny
+7049087851,new york city,2995,apartment,675,1,1,1,1,1,0,0,0,w/d in unit,,40.7709,-73.9205,ny
+7049083489,new york city,2195,apartment,704,1,1,1,1,1,0,0,0,laundry on site,,40.6702,-73.431,ny
+7048911009,new york city,1400,apartment,700,1,1,1,1,1,0,0,0,laundry in bldg,,40.5906,-73.9508,ny
+7049082596,new york city,2366,apartment,774,1,1,1,1,1,0,0,0,w/d in unit,off-street parking,41.0535,-73.8225,ny
+7049079480,new york city,1899,apartment,900,1,1,0,1,0,0,0,0,laundry in bldg,attached garage,40.7651,-73.8194,ny
+7049076194,new york city,4660,apartment,1000,2,2,1,1,1,1,0,0,w/d in unit,attached garage,40.7446,-73.9345,ny
+7049073557,new york city,2500,townhouse,1400,3,2.5,0,0,1,0,0,0,no laundry on site,street parking,40.5682,-74.1184,ny
+7049069586,new york city,2250,apartment,1100,3,1,0,0,1,0,0,0,,,40.6463,-73.9128,ny
+7049065022,new york city,1750,apartment,700,0,1,0,0,0,0,0,0,no laundry on site,street parking,40.6839,-73.9382,ny
+7049064341,new york city,1700,apartment,700,1,1,1,1,1,0,0,0,no laundry on site,,40.6333,-73.9764,ny
+7049062477,new york city,1449,apartment,529,0,1,0,1,0,0,0,0,laundry in bldg,detached garage,41.0888,-73.5435,ny
+7049061091,new york city,3000,apartment,660,1,1,1,1,1,1,0,0,w/d in unit,attached garage,40.7446,-73.9345,ny
+7048909440,new york city,1700,apartment,900,1,1,0,0,1,0,0,0,laundry in bldg,,40.6167,-73.9695,ny
+7049060724,new york city,2550,apartment,600,1,1,0,0,1,0,0,0,,,40.7615,-73.9184,ny
+7049059551,new york city,1800,apartment,865,2,1,0,0,1,0,0,0,laundry on site,no parking,40.8904,-73.8503,ny
+7049055336,new york city,2450,apartment,850,2,1,1,1,1,0,0,0,,,40.7714,-73.8968,ny
+7049054510,new york city,2600,apartment,950,3,1,1,1,1,0,0,0,,,40.7611,-73.9096,ny
+7049050537,new york city,6995,apartment,75,4,2,0,1,1,0,0,0,w/d in unit,street parking,40.7286,-73.9863,ny
+7048909043,new york city,2350,apartment,1500,3,1,0,0,1,0,0,0,,,40.5929,-73.9688,ny
+7049046987,new york city,1650,apartment,780,1,1,1,1,1,0,0,0,,attached garage,41.0531,-73.539,ny
+7049046271,new york city,1200,apartment,800,1,1,0,0,0,0,0,0,no laundry on site,off-street parking,41.225,-73.2302,ny
+7049043257,new york city,1599,apartment,743,1,1,1,1,1,0,0,0,,,41.0531,-73.539,ny
+7049041439,new york city,3000,apartment,1000,3,1.5,1,1,1,0,0,0,w/d in unit,street parking,40.6712,-73.9337,ny
+7049034083,new york city,2970,apartment,500,0,1,1,1,1,1,0,0,w/d in unit,attached garage,40.7446,-73.9345,ny
+7049032250,new york city,2159,apartment,600,1,1,1,1,1,0,0,0,w/d in unit,,40.5973,-74.0768,ny
+7048980370,new york city,3250,apartment,1300,3,2,1,1,1,0,0,0,w/d in unit,attached garage,41.0531,-73.539,ny
+7049029952,new york city,1700,apartment,404,0,1,1,1,1,0,0,0,w/d in unit,,40.5973,-74.0768,ny
+7049026329,new york city,1850,apartment,700,0,1,0,0,1,0,0,0,,,40.6898,-73.9771,ny
+7049014139,new york city,3095,apartment,1100,3,1,0,0,1,0,0,0,,,40.6932,-73.9709,ny
+7049009638,new york city,1449,apartment,529,0,1,0,1,0,0,0,0,laundry in bldg,detached garage,41.0888,-73.5435,ny
+7049006995,new york city,2300,apartment,1100,3,1,0,0,1,0,0,0,,,40.9411,-73.8994,ny
+7049003795,new york city,2150,apartment,1100,3,2,1,1,0,0,0,0,w/d in unit,detached garage,40.741,-74.0585,ny
+7049002435,new york city,2500,apartment,1120,4,2,1,1,0,0,0,0,w/d in unit,detached garage,40.7482,-74.0498,ny
+7049000764,new york city,3495,loft,800,1,1,0,0,1,0,0,0,laundry in bldg,,40.7088,-74.0025,ny
+7048997711,new york city,2325,apartment,943,1,1,1,1,1,0,0,0,laundry on site,,40.6702,-73.431,ny
+7048989438,new york city,4000,apartment,710,1,1,0,0,0,0,0,0,laundry in bldg,attached garage,40.7764,-73.9827,ny
+7048985986,new york city,5520,apartment,1200,4,2,1,1,1,0,0,0,laundry in bldg,,40.7656,-73.9885,ny
+7048984921,new york city,2195,apartment,1200,2,1.5,1,1,1,0,0,0,laundry in bldg,off-street parking,41.0218,-73.7753,ny
+7048984001,new york city,3995,apartment,980,3,1,1,1,1,0,0,0,,,40.7564,-73.9973,ny
+7048983082,new york city,3650,apartment,720,3,1,1,1,1,0,0,0,laundry in bldg,,40.7666,-73.9874,ny
+7048982011,new york city,1899,apartment,1078,2,1,1,1,1,0,0,0,,off-street parking,41.0888,-73.5435,ny
+7048797438,new york city,1700,apartment,700,1,1,1,1,1,0,0,0,no laundry on site,,40.6333,-73.9764,ny
+7048978141,new york city,1575,apartment,743,1,1,1,1,1,0,0,0,laundry in bldg,,41.0531,-73.539,ny
+7048976937,new york city,1495,apartment,500,1,1,1,0,1,0,0,0,no laundry on site,street parking,40.9174,-73.8484,ny
+7048973103,new york city,1975,apartment,800,1,1,0,0,1,0,0,0,laundry in bldg,off-street parking,41.0897,-73.844,ny
+7048971119,new york city,1449,apartment,300,0,1,1,0,1,0,0,0,laundry in bldg,attached garage,40.5847,-73.971,ny
+7048969631,new york city,1799,apartment,770,1,1,0,0,1,0,0,0,laundry in bldg,attached garage,40.5895,-73.957,ny
+7048958796,new york city,1449,apartment,529,0,1,0,1,0,0,0,0,laundry in bldg,detached garage,41.0888,-73.5435,ny
+7048951834,new york city,1600,apartment,630,1,1,1,1,1,0,0,0,laundry in bldg,street parking,40.8736,-73.885,ny
+7048947767,new york city,1400,apartment,1000,2,1,0,0,0,0,0,0,laundry in bldg,,41.216,-73.1304,ny
+7048947478,new york city,2650,apartment,1000,3,1,0,0,0,0,0,0,,,40.7118,-73.9033,ny
+7048941762,new york city,3150,apartment,688,1,1,1,1,1,0,0,1,w/d in unit,,40.7816,-73.9511,ny
+7048931944,new york city,2200,in-law,980,1,1,0,0,0,0,0,0,w/d in unit,off-street parking,41.1657,-73.3309,ny
+7048931057,new york city,1500,apartment,650,1,1,0,0,1,0,0,1,w/d in unit,off-street parking,41.1323,-73.4058,ny
+7048925004,new york city,2540,apartment,750,2,1,1,1,1,0,0,0,,,40.6414,-74.0916,ny
+7048916452,new york city,2325,apartment,943,1,1,1,1,1,0,0,0,laundry on site,,40.6702,-73.431,ny
+7048912000,new york city,1850,apartment,1000,2,1,1,1,1,0,0,0,laundry in bldg,,40.6549,-73.9619,ny
+7048905319,new york city,1449,apartment,300,0,1,0,0,1,0,0,0,laundry in bldg,street parking,40.5979,-73.9743,ny
+7048904851,new york city,2299,apartment,950,2,1.5,0,0,1,0,0,0,laundry in bldg,attached garage,40.5839,-73.9536,ny
+7048902251,new york city,2800,apartment,1000,3,1,0,0,0,0,0,0,no laundry on site,no parking,40.6283,-74.0304,ny
+7048901303,new york city,1895,apartment,750,1,1,0,1,1,0,0,0,no laundry on site,street parking,40.8249,-73.941,ny
+7048898564,new york city,2650,apartment,2100,3,2,0,1,1,1,0,0,laundry in bldg,detached garage,40.8774,-73.8406,ny
+7048884665,new york city,2000,apartment,850,2,1,0,0,1,0,0,0,no laundry on site,street parking,40.702,-73.9049,ny
+7048876856,new york city,1650,apartment,700,1,1,0,0,1,0,0,0,,street parking,40.6958,-73.7617,ny
+7048876339,new york city,2625,apartment,1058,3,1,0,0,0,1,0,0,laundry in bldg,,40.8533,-73.8859,ny
+7048873489,new york city,2500,apartment,600,1,1,0,0,1,0,0,0,laundry in bldg,,40.7864,-73.9764,ny
+7048859885,new york city,4000,apartment,1000,2,0,1,1,1,0,0,0,,,40.7049,-73.9338,ny
+7048846633,new york city,1900,apartment,70,1,1,0,1,1,0,0,0,laundry in bldg,street parking,40.7627,-73.9149,ny
+7048833303,new york city,2200,apartment,1000,1,1,1,1,1,0,0,0,laundry in bldg,,40.6646,-73.9523,ny
+7048818488,new york city,2200,house,1100,3,1,0,0,1,0,0,0,,,40.6174,-74.0121,ny
+7048817843,new york city,2950,apartment,575,1,1,1,1,1,0,0,1,laundry in bldg,street parking,40.7196,-73.9456,ny
+7048806574,new york city,1600,apartment,850,2,1,0,0,0,0,0,0,,off-street parking,40.5683,-74.1055,ny
+7048798365,new york city,2599,house,1200,3,1.5,1,1,1,0,0,0,no laundry on site,street parking,40.6766,-73.9249,ny
+7048795396,new york city,980,flat,75,4,1.5,1,0,1,0,0,0,laundry in bldg,street parking,40.6977,-73.9366,ny
+7048793929,new york city,2300,apartment,750,2,1,1,1,0,0,0,0,no laundry on site,street parking,40.6801,-73.8917,ny
+7048786496,new york city,2000,apartment,1100,3,0,0,0,0,0,0,0,,,40.6366,-74.1651,ny
+7048777572,new york city,1500,apartment,800,1,0,0,0,0,0,0,0,,,40.6301,-74.1607,ny
+7048773381,new york city,2600,apartment,1500,3,1,0,0,0,0,0,0,no laundry on site,street parking,40.6366,-74.0068,ny
+7048762923,new york city,2800,apartment,750,2,1,1,1,1,0,0,0,w/d in unit,street parking,40.5154,-74.0027,ny
+7048762088,new york city,2700,apartment,651,1,1,0,0,0,0,0,0,w/d in unit,,40.8116,-73.955,ny
+7048759080,new york city,2800,apartment,1340,4,2,0,0,1,0,0,0,laundry in bldg,street parking,40.7278,-73.8955,ny
+7048758717,new york city,4488,apartment,1000,2,2,1,1,1,1,0,0,laundry in bldg,attached garage,40.7454,-73.9575,ny
+7048729498,new york city,2000,apartment,750,1,1,0,0,1,0,0,0,laundry in bldg,attached garage,40.6194,-74.04,ny
+7048716738,new york city,1900,apartment,700,1,1,1,1,1,0,0,0,laundry in bldg,,40.7713,-73.9088,ny
+7048710138,new york city,1750,apartment,600,1,1,1,0,1,0,0,0,,,40.771,-73.9085,ny
+7048710165,new york city,2600,apartment,950,3,1,1,1,1,0,0,0,,,40.7611,-73.9096,ny
+7048709345,new york city,2500,apartment,600,1,1,0,0,1,0,0,0,,,40.7615,-73.9184,ny
+7048708641,new york city,2450,apartment,850,2,1,1,1,1,0,0,0,,,40.7714,-73.8968,ny
+7048702525,new york city,1500,apartment,1000,1,1,0,0,1,0,0,0,,,41.01,-73.6787,ny
+7048702273,new york city,2700,apartment,1000,3,1.5,0,0,1,0,0,0,,,40.7666,-73.9082,ny
+7048701300,new york city,2400,apartment,700,1,1,1,1,0,0,0,0,laundry in bldg,carport,40.6653,-73.9293,ny
+7048693097,new york city,2450,apartment,900,2,1,1,0,1,0,0,0,,,40.7752,-73.9083,ny
+7048672610,new york city,3495,apartment,1000,2,1,1,0,1,0,0,0,laundry in bldg,,40.6718,-73.9625,ny
+7048664265,new york city,2300,apartment,750,2,1,1,1,0,0,0,0,w/d in unit,street parking,40.9719,-73.7181,ny
+7048644128,new york city,3200,apartment,1000,2,1,1,1,0,0,0,1,no laundry on site,street parking,40.6669,-73.9828,ny
+7048639259,new york city,1900,apartment,1000,1,1,0,0,1,0,0,0,w/d in unit,off-street parking,41.0942,-73.5203,ny
+7048638697,new york city,3600,apartment,825,1,1,1,1,1,0,0,0,laundry in bldg,,40.7779,-73.9457,ny
+7048627227,new york city,2300,apartment,1200,2,1,0,0,1,0,0,1,no laundry on site,street parking,40.7097,-73.8728,ny
+7048625553,new york city,2100,apartment,650,2,1,0,0,1,0,0,0,,,40.6932,-73.9289,ny
+7048622263,new york city,2325,apartment,943,1,1,1,1,1,0,0,0,laundry on site,,40.6702,-73.431,ny
+7048619561,new york city,2599,house,1200,3,1.5,1,1,1,0,0,0,no laundry on site,street parking,40.6766,-73.9249,ny
+7048611075,new york city,2250,apartment,300,1,1,1,1,1,0,0,0,laundry in bldg,street parking,40.7651,-73.9638,ny
+7048607343,new york city,1350,apartment,680,1,1,0,0,1,0,0,0,,,40.7438,-73.9243,ny
+7048603812,new york city,2,apartment,2300,3,1,0,0,1,0,0,0,,,40.758,-73.917,ny
+7048602538,new york city,1,apartment,900,2,1,0,0,1,0,0,0,,,40.7013,-73.8048,ny
+7048600958,new york city,25,apartment,1100,3,1,0,0,1,0,0,0,,,40.7552,-73.8815,ny
+7048593965,new york city,1495,apartment,825,2,1,0,0,1,0,0,0,w/d in unit,off-street parking,41.1928,-73.2402,ny
+7048591072,new york city,1000,apartment,410,1,1,0,0,1,0,0,0,,,40.7259,-73.8598,ny
+7048587320,new york city,2200,apartment,850,2,2,0,0,1,0,0,0,laundry in bldg,,40.7143,-73.7821,ny
+7048587269,new york city,2800,apartment,900,2,1,1,1,1,0,0,0,laundry in bldg,,40.7694,-73.9228,ny
+7048583998,new york city,3495,apartment,712,1,1,1,1,1,0,0,0,laundry in bldg,,40.6878,-73.9784,ny
+7048577471,new york city,1700,apartment,700,1,1,1,1,1,0,0,0,no laundry on site,,40.6333,-73.9764,ny
+7048570690,new york city,1700,apartment,1250,2,1,1,1,1,0,0,0,,off-street parking,40.6664,-74.1192,ny
+7048543467,new york city,3300,apartment,1000,4,1,1,1,1,0,0,0,laundry in bldg,,40.6768,-73.9557,ny
+7048568705,new york city,3475,apartment,1000,3,1.5,1,1,1,0,0,0,laundry in bldg,attached garage,40.8188,-73.956,ny
+7048566278,new york city,3100,apartment,835,2,1,1,1,1,0,0,0,laundry in bldg,attached garage,40.8188,-73.956,ny
+7048565536,new york city,2300,apartment,2300,0,1,0,0,1,0,0,0,,,40.7918,-73.9447,ny
+7048565206,new york city,2325,apartment,560,1,1,1,1,1,0,1,0,laundry in bldg,attached garage,40.8188,-73.956,ny
+7048563832,new york city,2095,apartment,380,0,1,0,1,1,0,0,0,laundry in bldg,attached garage,40.8188,-73.956,ny
+7048537893,new york city,2325,apartment,943,1,1,1,1,1,0,0,0,laundry on site,,40.6702,-73.431,ny
+7048534678,new york city,2600,apartment,1000,3,1,1,1,1,0,0,0,,,40.6526,-73.9498,ny
+7048528279,new york city,2500,apartment,1500,3,1,0,0,1,0,0,0,w/d hookups,no parking,40.5979,-73.9743,ny
+7048523320,new york city,2295,apartment,900,1,1,1,1,1,0,0,0,laundry in bldg,,40.9858,-73.8108,ny
+7048520407,new york city,4500,apartment,1120,2,2,1,1,1,0,0,0,laundry in bldg,,40.7694,-73.9905,ny
+7048516753,new york city,2550,apartment,450,1,1,1,1,0,0,0,0,laundry in bldg,no parking,40.7079,-73.945,ny
+7048506776,new york city,3244,apartment,1000,2,2,1,0,1,0,0,0,laundry in bldg,,40.7873,-73.9435,ny
+7048503731,new york city,2725,apartment,800,2,1.5,1,1,1,0,0,0,laundry in bldg,,40.8571,-73.9356,ny
+7048486974,new york city,3500,townhouse,2253,3,3.5,0,1,1,0,0,0,w/d in unit,attached garage,40.9719,-73.7181,ny
+7048472972,new york city,3150,townhouse,1280,3,1.5,0,0,0,0,0,0,w/d in unit,detached garage,41.0044,-73.6518,ny
+7048471980,new york city,2800,apartment,1000,2,1,1,1,1,0,0,0,laundry in bldg,,40.7694,-73.9228,ny
+7048471062,new york city,1875,apartment,550,0,1,1,1,1,0,0,0,,,40.8117,-73.941,ny
+7048460999,new york city,2100,apartment,1000,3,1,1,1,0,0,0,0,laundry in bldg,street parking,40.9569,-73.8198,ny
+7048458837,new york city,1400,apartment,1200,1,1,0,0,1,0,0,1,laundry in bldg,no parking,40.8218,-73.9544,ny
+7048417552,new york city,1995,duplex,750,2,1,1,1,1,0,0,0,laundry on site,,40.6784,-73.9211,ny
+7048444972,new york city,3200,apartment,1000,2,1,0,0,1,0,0,0,laundry in bldg,,40.6809,-73.974,ny
+7048441302,new york city,1500,apartment,600,0,1,1,0,1,0,0,0,laundry in bldg,off-street parking,41.0957,-73.4285,ny
+7048436448,new york city,2100,apartment,1100,3,1,0,0,1,0,0,0,,,40.6169,-74.0237,ny
+7048430972,new york city,3000,apartment,800,2,1,0,1,1,0,0,0,laundry in bldg,off-street parking,40.9803,-73.6881,ny
+7048429713,new york city,3899,apartment,700,2,1,1,1,1,1,0,0,w/d in unit,,40.6908,-73.9837,ny
+7048429633,new york city,13125,apartment,1713,3,0,1,1,1,0,0,0,w/d in unit,,40.7764,-73.9827,ny
+7048428715,new york city,3875,apartment,597,0,1,1,1,1,0,0,0,w/d in unit,,40.7764,-73.9827,ny
+7048428110,new york city,5271,apartment,794,1,1,1,1,1,0,0,0,w/d in unit,,40.7764,-73.9827,ny
+7048420257,new york city,2495,apartment,700,1,1,1,0,1,0,0,0,laundry in bldg,,40.7503,-73.9968,ny
+7048419450,new york city,2150,apartment,400,0,1,1,0,1,0,0,0,laundry in bldg,attached garage,40.7502,-73.9965,ny
+7048417306,new york city,2100,apartment,900,2,1,1,1,1,0,0,0,,,40.6443,-73.998,ny
+7048416102,new york city,2000,apartment,750,1,1,1,0,1,0,0,0,,,40.6412,-74.0133,ny
+7048414521,new york city,2000,apartment,750,1,1,1,0,1,0,0,0,,,40.6952,-73.9418,ny
+7048414143,new york city,2400,house,1800,3,2.5,0,0,1,0,0,0,w/d in unit,attached garage,41.3312,-73.2243,ny
+7048413512,new york city,2000,apartment,700,1,1,1,1,1,0,0,0,,,40.6238,-74.0301,ny
+7048412721,new york city,1800,apartment,700,1,1,1,1,1,0,0,0,,,40.6443,-73.998,ny
+7048412134,new york city,1750,apartment,400,0,1,1,0,1,0,0,0,,,40.7674,-73.955,ny
+7048411495,new york city,2095,apartment,900,2,1,1,0,1,0,0,0,laundry in bldg,,40.6196,-74.0392,ny
+7048411400,new york city,1750,apartment,400,0,1,1,0,1,0,0,0,,,40.7674,-73.955,ny
+7048411109,new york city,2150,apartment,400,0,1,1,0,1,0,0,0,laundry in bldg,attached garage,40.7502,-73.9965,ny
+7048410809,new york city,2150,apartment,400,0,1,1,0,1,0,0,0,laundry in bldg,attached garage,40.7502,-73.9965,ny
+7048407927,new york city,1500,apartment,600,2,1,0,0,0,0,0,0,no laundry on site,,40.5414,-74.1698,ny
+7048407230,new york city,2795,apartment,664,1,1,1,1,1,0,0,0,,,40.77,-73.9212,ny
+7048394514,new york city,1800,apartment,800,1,1,0,0,1,0,0,0,,,40.7071,-73.9097,ny
+7048406247,new york city,2550,apartment,600,1,1,0,0,1,0,0,0,,,40.7615,-73.9184,ny
+7048402598,new york city,2550,apartment,600,1,1,0,0,1,0,0,0,,,40.7615,-73.9184,ny
+7048402041,new york city,2400,apartment,850,1,1,1,1,1,0,0,0,laundry in bldg,,40.6465,-74.0073,ny
+7048401930,new york city,2300,apartment,720,3,1,0,0,0,0,0,0,laundry in bldg,street parking,40.693,-73.9907,ny
+7048401415,new york city,2750,apartment,750,3,1,1,1,1,0,0,0,,,40.6998,-73.9218,ny
+7048397431,new york city,2500,apartment,800,2,1,0,0,1,0,0,0,,,40.6815,-73.9742,ny
+7048393010,new york city,2995,apartment,675,1,1,1,1,1,0,0,0,w/d in unit,,40.7709,-73.9205,ny
+7048387990,new york city,2600,apartment,600,0,1,1,1,1,0,0,0,w/d in unit,,40.6873,-73.9812,ny
+7048386812,new york city,4305,apartment,967,2,1,1,1,1,0,0,0,w/d in unit,,40.7475,-73.9415,ny
+7048385594,new york city,3725,apartment,1050,3,1,1,1,1,0,0,0,w/d in unit,street parking,40.6615,-73.9629,ny
+7048382465,new york city,2100,apartment,1000,3,1,0,0,1,0,0,0,no laundry on site,,40.6913,-73.8585,ny
+7048379133,new york city,3395,apartment,720,1,1,1,1,1,0,0,0,laundry in bldg,,40.7526,-73.9712,ny
+7048378035,new york city,2500,apartment,1200,2,2,0,0,1,0,0,0,laundry in bldg,,40.727,-73.8565,ny
+7048377071,new york city,1449,apartment,300,0,1,0,0,1,0,0,0,laundry in bldg,street parking,40.5979,-73.9743,ny
+7048375645,new york city,2299,apartment,950,2,1.5,0,0,1,0,0,0,laundry in bldg,attached garage,40.5839,-73.9536,ny
+7048374719,new york city,2325,apartment,943,1,1,1,1,1,0,0,0,laundry on site,,40.6702,-73.431,ny
+7048373159,new york city,2299,apartment,950,2,1.5,0,0,1,0,0,0,laundry in bldg,attached garage,40.5895,-73.957,ny
+7048368236,new york city,2750,apartment,620,0,1,1,1,1,0,0,0,laundry in bldg,,40.7073,-74.0086,ny
+7048360320,new york city,2400,apartment,1200,3,2,1,0,0,0,0,0,no laundry on site,off-street parking,40.6011,-73.9475,ny
+7048357950,new york city,2100,house,1400,2,1.5,1,1,1,0,0,0,w/d in unit,off-street parking,41.3814,-73.8255,ny
+7048356245,new york city,3099,apartment,1000,2,1,0,0,1,0,0,0,,,40.6802,-73.968,ny
+7048352218,new york city,2799,apartment,900,2,1,1,1,1,0,0,0,laundry in bldg,,40.6907,-73.9274,ny
+7048346965,new york city,2400,apartment,800,1,1,0,0,1,0,0,0,w/d in unit,attached garage,40.8085,-73.9198,ny
+7048343596,new york city,2799,apartment,850,1,1,0,0,1,0,0,0,,,40.679,-73.9644,ny
+7048343219,new york city,1675,apartment,890,1,1,1,1,1,0,0,0,laundry in bldg,attached garage,41.1352,-73.5684,ny
+7048327392,new york city,1950,apartment,1300,3,1,1,1,1,0,0,0,w/d hookups,no parking,40.6664,-74.1192,ny
+7048327138,new york city,2700,apartment,950,3,1,0,0,1,0,0,0,,street parking,40.676,-73.847,ny
+7048314301,new york city,3050,apartment,850,1,1,0,1,0,0,0,0,w/d in unit,,40.7149,-73.9545,ny
+7048309982,new york city,3600,apartment,1000,2,1,1,0,1,0,0,0,laundry in bldg,street parking,40.7489,-73.9764,ny
+7048288062,new york city,1800,apartment,750,2,1,1,1,1,0,0,0,,street parking,40.6488,-73.9523,ny
+7048284085,new york city,2850,apartment,955,4,2,0,0,1,0,0,0,,,40.704,-73.9041,ny
+7048275246,new york city,3099,apartment,800,1,1,1,1,1,0,0,0,laundry in bldg,,40.679,-73.9644,ny
+7048273682,new york city,5500,apartment,1750,3,2,0,0,0,0,0,0,w/d in unit,attached garage,40.7445,-74.0329,ny
+7048272212,new york city,3400,house,2000,4,2,0,0,0,0,0,0,w/d in unit,street parking,40.697,-73.4877,ny
+7048271850,new york city,1750,apartment,700,1,1,0,0,1,0,0,0,laundry on site,,40.9018,-73.7767,ny
+7048268880,new york city,1890,apartment,900,2,1,1,0,1,1,0,0,laundry in bldg,attached garage,40.7195,-73.8591,ny
+7048266611,new york city,2650,apartment,750,2,1,1,1,1,0,0,0,,,40.6414,-74.0916,ny
+7048263409,new york city,3195,apartment,750,2,1,1,0,1,0,0,0,laundry in bldg,no parking,40.7786,-73.9476,ny
+7048261905,new york city,2350,apartment,1500,3,1,0,0,1,0,0,0,,,40.5929,-73.9688,ny
+7048261009,new york city,1700,apartment,900,1,1,0,0,1,0,0,0,laundry in bldg,,40.6167,-73.9695,ny
+7048253398,new york city,2300,apartment,900,2,1,0,0,0,0,0,0,,street parking,40.7576,-73.8934,ny
+7048236114,new york city,1025,apartment,425,1,1,0,0,0,0,0,0,laundry in bldg,off-street parking,41.0957,-73.4285,ny
+7048232771,new york city,2500,apartment,1200,3,1,0,0,1,0,0,0,,,40.757,-73.9305,ny
+7048232314,new york city,1950,apartment,650,1,1,0,0,1,0,0,0,,,40.7627,-73.9149,ny
+7048231867,new york city,3400,apartment,1300,3,2,0,0,1,0,0,0,,,40.7627,-73.9149,ny
+7048214783,new york city,1650,apartment,861,1,1,1,1,0,0,0,0,w/d in unit,off-street parking,41.0686,-73.5466,ny
+7048210403,new york city,1788,apartment,700,0,1,0,0,1,0,0,0,w/d in unit,no parking,40.6755,-73.9633,ny
+7048209917,new york city,2400,duplex,1200,1,1.5,0,0,1,0,0,0,w/d in unit,street parking,40.6755,-73.9633,ny
+7048209211,new york city,2495,apartment,800,2,1,0,0,1,0,0,0,laundry in bldg,off-street parking,40.6951,-73.9449,ny
+7048173535,new york city,2100,apartment,700,1,1,0,0,1,0,0,0,no laundry on site,,40.8044,-73.9511,ny
+7048164452,new york city,5000,townhouse,1600,4,2,1,1,1,0,0,0,w/d in unit,off-street parking,40.722,-74.0416,ny
+7048160574,new york city,1500,apartment,600,1,1,0,0,1,0,0,0,w/d in unit,carport,40.6598,-73.7206,ny
+7048154751,new york city,2350,apartment,1350,3,1.5,0,0,1,0,0,0,,street parking,40.9518,-73.8852,ny
+7048144375,new york city,3600,apartment,825,1,1,1,1,1,0,0,0,laundry in bldg,,40.7779,-73.9457,ny
+7048132290,new york city,3070,apartment,445,0,1,1,1,0,0,0,0,w/d in unit,,40.7975,-73.9683,ny
+7048123701,new york city,1450,apartment,1000,1,1,1,1,0,0,0,0,laundry in bldg,off-street parking,41.1573,-73.2313,ny
+7048123674,new york city,2350,apartment,580,0,1,1,1,1,0,0,0,w/d in unit,off-street parking,40.6669,-73.9828,ny
+7048123176,new york city,2750,apartment,600,1,1,0,0,0,0,0,0,no laundry on site,no parking,40.7574,-73.9667,ny
+7048121799,new york city,2300,apartment,1175,2,2,0,0,1,1,0,0,laundry in bldg,,41.022,-73.7613,ny
+7048121788,new york city,3600,apartment,1000,1,0,0,1,1,0,0,0,laundry in bldg,,40.7481,-73.9732,ny
+7048121677,new york city,4750,apartment,1100,2,1,1,1,1,0,0,0,,,40.7571,-73.9657,ny
+7048121647,new york city,3750,apartment,962,1,1,1,1,1,0,0,0,,,40.7571,-73.9657,ny
+7048095563,new york city,1600,apartment,700,2,1,0,0,1,0,0,0,,,40.5908,-73.9851,ny
+7048094771,new york city,2575,apartment,800,2,1,1,1,1,0,0,0,laundry in bldg,off-street parking,40.6775,-73.9456,ny
+7048067642,new york city,950,condo,477,1,1,0,0,0,0,0,0,,off-street parking,41.5709,-73.4133,ny
+7048064541,new york city,5500,apartment,1600,5,3,1,0,1,0,0,0,w/d in unit,street parking,40.6914,-73.9214,ny
+7048063829,new york city,1250,apartment,741,1,1,0,0,1,0,0,0,,,40.7764,-73.9827,ny
+7048057084,new york city,3099,apartment,850,1,1,1,1,1,0,0,0,w/d in unit,,40.7446,-73.9577,ny
+7048054483,new york city,3600,apartment,900,3,2,1,1,1,0,0,0,laundry in bldg,,40.713,-73.9411,ny
+7048049288,new york city,3000,apartment,1200,2,1,0,0,0,0,0,0,laundry on site,attached garage,40.9726,-73.7179,ny
+7048044826,new york city,1700,apartment,800,1,1,0,0,0,1,0,0,laundry in bldg,off-street parking,40.8882,-74.0503,ny
+7048038339,new york city,2400,apartment,1000,2,1,0,0,1,0,0,0,w/d in unit,street parking,40.6611,-73.9507,ny
+7048024473,new york city,1700,apartment,800,2,1,0,0,1,0,0,0,no laundry on site,street parking,40.9402,-73.898,ny
+7048024370,new york city,2200,house,1100,2,1,0,0,1,0,0,0,,,40.5956,-73.9439,ny
+7048022294,new york city,1700,house,1000,2,1,0,0,1,0,0,0,,,40.5956,-73.9439,ny
+7048021005,new york city,2950,apartment,1100,3,1,0,0,1,0,0,0,w/d in unit,street parking,40.6611,-73.9507,ny
+7048016988,new york city,4850,apartment,1200,3,2,1,0,1,0,0,0,w/d in unit,,40.6712,-73.9594,ny
+7048014473,new york city,2605,apartment,500,0,1,0,0,1,0,0,0,laundry in bldg,street parking,40.736,-73.9823,ny
+7048013308,new york city,3500,loft,750,4,1,1,1,1,0,0,0,laundry in bldg,street parking,40.7055,-73.9373,ny
+7048010842,new york city,3951,apartment,738,1,1,0,0,1,0,0,0,w/d in unit,,40.7778,-73.9886,ny
+7048001482,new york city,4500,duplex,2000,3,2,0,0,0,0,0,0,w/d in unit,attached garage,40.7132,-73.8365,ny
+7047991996,new york city,1800,apartment,900,2,1,1,1,1,1,0,0,laundry in bldg,no parking,40.7548,-73.823,ny
+7047985051,new york city,3500,condo,613,0,1,1,1,0,1,1,1,laundry on site,no parking,40.7552,-73.9686,ny
+7047979454,new york city,2600,apartment,800,1,1,1,1,0,0,0,0,laundry in bldg,street parking,40.7032,-73.9412,ny
+7047973197,new york city,1950,apartment,1050,2,1,0,0,0,0,0,0,no laundry on site,street parking,40.907,-73.8343,ny

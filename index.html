@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Where can I find my home?</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis"></script>
+</head>
+<body>
+
+<script type="text/javascript">
+
+// TensorFlow.js can import data from CSV file via HTTP (or the local file system when using Node.js).
+// The tfjs-vis library can to help you visualise data when using TensorFlow.js
+// Features and labels should be stored in 2D tensors to feed into the model.
+// Features and labels should be normalized to a range between 0 and 1.
+// You can normalise using min-max normalization, implemented with tensor operations.
+// You need to keep track of the minimum and maximum values to later denormalise.
+// Tensors can be split into sub tensors in any ratio using tf.split(...)
+
+  async function plot(pointsArray, featureName) {
+    tfvis.render.scatterplot(
+      { name: `${featureName} vs House Price` },
+      { values: [pointsArray], series: ["original"] },
+      {
+        xLabel: featureName,
+        yLabel: "Price",
+      }
+    )
+  }
+
+  function normalize(tensor) {
+    // method: https://en.wikipedia.org/wiki/Feature_scaling#Rescaling_(min-max_normalization)
+    //  every value be in range 0 and 1
+    const min = tensor.min();
+    const max = tensor.max();
+    const normalizedTensor = tensor.sub(min).div(max.sub(min));
+    return {
+      tensor: normalizedTensor,
+      min,
+      max
+    };
+  }
+
+  function denormalize(tensor, min, max) {
+    // denormalize tensors if needed later
+    const denormalizedTensor = tensor.mul(max.sub(min)).add(min);
+    return denormalizedTensor;
+  }
+
+  function createModel() {
+    const model = tf.sequential();
+
+    model.add(tf.layers.dense({
+      units: 1,
+      useBias: true,
+      activation: 'linear',
+      inputDim: 1,
+    }));
+
+    const optimizer = tf.train.sgd(0.1);
+    model.compile({
+      loss: 'meanSquaredError',
+      optimizer,
+    });
+
+    return model;
+  }
+
+  async function run () {
+
+    // Ensure tensorflow is initialized and ready
+    await tf.ready();
+
+    // Import from csv file
+    const housingData = tf.data.csv("http://127.0.0.1:8080/nyc_housing.csv");
+
+    // Extract x and y values to plot
+    const pointsDataset = housingData.map(record => ({
+      x: record.sqfeet,
+      y: record.price,
+    }));
+    const points = await pointsDataset.toArray();
+
+    // to fix error of evenly split data into training and testing, we remove one element if odd
+    if(points.length % 2 !== 0) { // If odd number of elements
+      points.pop(); // remove one element
+    }
+
+    // shuffle data to avoid patterns in order of data or prices by area
+    // so no split of data gets more than others on a category or group of values
+    tf.util.shuffle(points);
+    plot(points, "Square Feet");
+
+    // Extract Features (inputs)
+    const featureValues = points.map(p => p.x);
+    const featureTensor = tf.tensor2d(featureValues, [featureValues.length, 1]);
+
+    // Extract Labels (outputs)
+    const labelValues = points.map(p => p.y);
+    const labelTensor = tf.tensor2d(labelValues, [labelValues.length, 1]);
+
+    // featureTensor.print()
+    // labelTensor.print()
+
+    // Normalize features and labels
+    const normalizedFeature = normalize(featureTensor);
+    const normalizedLabel = normalize(labelTensor);
+
+    // normalizedFeature.tensor.print()
+    // normalizedLabel.tensor.print()
+
+    // split train and test into 50 - 50 , equally sized datasets
+    const [trainingFeatureTensor, testingFeatureTensor] = tf.split(normalizedFeature.tensor, 2);
+    const [trainingLabelTensor, testingLabelTensor] = tf.split(normalizedLabel.tensor, 2);
+
+    // trainingFeatureTensor.print()
+    // trainingLabelTensor.print()
+  }
+
+  run();
+</script>
+
+</body>
+</html>
