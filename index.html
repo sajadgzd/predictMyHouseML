@@ -66,6 +66,7 @@
     return model;
   }
 
+
   async function run () {
 
     // Ensure tensorflow is initialized and ready
@@ -115,6 +116,12 @@
 
     // trainingFeatureTensor.print()
     // trainingLabelTensor.print()
+
+    const model = createModel();
+    tfvis.show.modelSummary({ name: "Model summary" }, model);
+
+    const layer = model.getLayer(undefined, 0);
+    tfvis.show.layer({ name: "Layer 1" }, layer);
   }
 
   run();
