@@ -107,9 +107,9 @@
       // calculating loss independently from training data
       validationSplit: 0.2,
       callbacks: {
-        // onEpochEnd
+        onEpochEnd
         // to log loss values on each epochs
-        onEpochEnd: (epoch, log) => console.log(`Epoch ${epoch}: loss = ${log.loss}`)
+        // onEpochEnd: (epoch, log) => console.log(`Epoch ${epoch}: loss = ${log.loss}`)
       }
     });
   }
