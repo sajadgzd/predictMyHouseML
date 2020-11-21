@@ -8,6 +8,7 @@
 <body>
 
 <script type="text/javascript">
+// http-server
 
 // TensorFlow.js can import data from CSV file via HTTP (or the local file system when using Node.js).
 // The tfjs-vis library can to help you visualise data when using TensorFlow.js
@@ -17,6 +18,7 @@
 // You need to keep track of the minimum and maximum values to later denormalise.
 // Tensors can be split into sub tensors in any ratio using tf.split(...)
 
+  // async func to plot and visualize our data 
   async function plot(pointsArray, featureName) {
     tfvis.render.scatterplot(
       { name: `${featureName} vs House Price` },
@@ -48,8 +50,11 @@
   }
 
   function createModel() {
+    // sequential model, output of a layer is the input of next layer
     const model = tf.sequential();
 
+    // single layer, single node, linear
+    // dense, all inputs and outputs are connected
     model.add(tf.layers.dense({
       units: 1,
       useBias: true,
@@ -57,7 +62,12 @@
       inputDim: 1,
     }));
 
+    // optimizer
+    // stochastic gradient descent builtin optimizer, with a learning rate of 0.1
     const optimizer = tf.train.sgd(0.1);
+
+    // prepares model for training and testing, chose loss func from builtin tf.loss.meanSquaredError
+    // RMSE with already normalized data is overkill, so we just use MSE
     model.compile({
       loss: 'meanSquaredError',
       optimizer,
@@ -118,8 +128,10 @@
     // trainingLabelTensor.print()
 
     const model = createModel();
+    // inspect model
     tfvis.show.modelSummary({ name: "Model summary" }, model);
 
+    // to innspect details of layers, first layer
     const layer = model.getLayer(undefined, 0);
     tfvis.show.layer({ name: "Layer 1" }, layer);
   }
