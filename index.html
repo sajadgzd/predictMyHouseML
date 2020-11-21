@@ -99,13 +99,15 @@
 
     // fit method to train for a certain number of epochs, used 20 first, then 30
     return model.fit(trainingFeatureTensor, trainingLabelTensor, {
+      // in each epoch, there'll be number batches of data to be optimized
       batchSize: 32,
       epochs: 30,
+      // 20% of dataset for validation for safeguard to check overfitting
       validationSplit: 0.2,
       callbacks: {
-        onEpochEnd
+        // onEpochEnd
         // to log loss values on each epochs
-        // onEpochEnd: (epoch, log) => console.log(`Epoch ${epoch}: loss = ${log.loss}`)
+        onEpochEnd: (epoch, log) => console.log(`Epoch ${epoch}: loss = ${log.loss}`)
       }
     });
   }
@@ -171,11 +173,16 @@
 
     const result = await trainModel(model, trainingFeatureTensor, trainingLabelTensor);
     console.log(result);
+
+    // print loss for training set result to console
     const trainingLoss = result.history.loss.pop();
     console.log(`Training set loss: ${trainingLoss}`);
+
+    // print loss for validation set result to console
     const validationLoss = result.history.val_loss.pop();
     console.log(`Validation set loss: ${validationLoss}`);
 
+    // get the testing set loss and print it to console
     const lossTensor = model.evaluate(testingFeatureTensor, testingLabelTensor);
     const loss = await lossTensor.dataSync();
     console.log(`Testing set loss: ${loss}`);
