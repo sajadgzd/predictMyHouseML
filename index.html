@@ -8,6 +8,12 @@
 <body>
 
 <script type="text/javascript">
+// train model, evaluate loss, update and optimize model and repeat for next epoch.
+// test is not iterative, just evaluate against test dataset and evaluate loss and compare with train
+// if close, well trained. if too diff, may overfitted or data was not prepared properly, not shuffled
+// validation dataset for frequent evaluation of model independent from train set, testing reserved for final stage
+
+
 // http-server
 
 // TensorFlow.js can import data from CSV file via HTTP (or the local file system when using Node.js).
