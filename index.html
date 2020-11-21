@@ -36,8 +36,8 @@
 // The tfjs-vis library can to help you visualise data when using TensorFlow.js
 // Features and labels should be stored in 2D tensors to feed into the model.
 // Features and labels should be normalized to a range between 0 and 1.
-// You can normalise using min-max normalization, implemented with tensor operations.
-// You need to keep track of the minimum and maximum values to later denormalise.
+// You can normalize using min-max normalization, implemented with tensor operations.
+// You need to keep track of the minimum and maximum values to later denormalize.
 // Tensors can be split into sub tensors in any ratio using tf.split(...)
 
   // async func to plot and visualize our data 
@@ -52,13 +52,13 @@
     )
   }
 
-  async function plotPredictionLine () {
+  async function plotPredictionLine() {
     const [xs, ys] = tf.tidy(() => {
-      const normalisedXs = tf.linspace(0, 1, 100);
-      const normalisedYs = model.predict(normalisedXs.reshape([100, 1]));
+      const normalizedXs = tf.linspace(0, 1, 100);
+      const normalizedYs = model.predict(normalizedXs.reshape([100, 1]));
 
-      const xs = denormalise(normalisedXs, normalisedFeature.min, normalisedFeature.max);
-      const ys = denormalise(normalisedYs, normalisedLabel.min, normalisedLabel.max);
+      const xs = denormalize(normalizedXs, normalizedFeature.min, normalizedFeature.max);
+      const ys = denormalize(normalizedYs, normalizedLabel.min, normalizedLabel.max);
 
       return [ xs.dataSync(), ys.dataSync() ];
     });
@@ -75,9 +75,9 @@
     //  every value be in range 0 and 1
     const min = previousMin || tensor.min();
     const max = previousMax || tensor.max();
-    const normalisedTensor = tensor.sub(min).div(max.sub(min));
+    const normalizedTensor = tensor.sub(min).div(max.sub(min));
     return {
-      tensor: normalisedTensor,
+      tensor: normalizedTensor,
       min,
       max
     };
@@ -93,7 +93,7 @@
 
   function createModel() {
     // sequential model, output of a layer is the input of next layer
-    const model = tf.sequential();
+    model = tf.sequential();
 
     // single layer, single node, linear
     // dense, all inputs and outputs are connected
@@ -125,7 +125,7 @@
   }
   
   // async func to train model
-  async function trainModel (model, trainingFeatureTensor, trainingLabelTensor) {
+  async function trainModel(model, trainingFeatureTensor, trainingLabelTensor) {
 
     // visualize the training progress - loss
     const { onBatchEnd, onEpochEnd } = tfvis.show.fitCallbacks(
@@ -155,7 +155,7 @@
     });
   }
 
-  async function predict () {
+  async function predict() {
     const predictionInput = parseInt(document.getElementById("prediction-input").value);
     if (isNaN(predictionInput)) {
       alert("Please enter a valid number");
@@ -166,9 +166,9 @@
     else {
       tf.tidy(() => {
         const inputTensor = tf.tensor1d([predictionInput]);
-        const normalisedInput = normalise(inputTensor, normalisedFeature.min, normalisedFeature.max);
-        const normalisedOutputTensor = model.predict(normalisedInput.tensor);
-        const outputTensor = denormalise(normalisedOutputTensor, normalisedLabel.min, normalisedLabel.max);
+        const normalizedInput = normalize(inputTensor, normalizedFeature.min, normalizedFeature.max);
+        const normalizedOutputTensor = model.predict(normalizedInput.tensor);
+        const outputTensor = denormalize(normalizedOutputTensor, normalizedLabel.min, normalizedLabel.max);
         const outputValue = outputTensor.dataSync()[0];
         const outputValueRounded = (outputValue/1000).toFixed(0)*1000;
         document.getElementById("prediction-output").innerHTML = `The predicted house price is <br>`
@@ -178,12 +178,13 @@
   }
 
   const storageID = "nyc_housing_price";
-  async function save () {
+
+  async function save() {
     const saveResults = await model.save(`localstorage://${storageID}`);
     document.getElementById("model-status").innerHTML = `Trained (saved ${saveResults.modelArtifactsInfo.dateSaved})`;
   }
 
-  async function load () {
+  async function load() {
     const storageKey = `localstorage://${storageID}`;
     const models = await tf.io.listModels();
     const modelInfo = models[storageKey];
@@ -204,7 +205,7 @@
     }
   }
 
-  async function test () {
+  async function test(){
     // get the testing set loss and print it to console
     const lossTensor = model.evaluate(testingFeatureTensor, testingLabelTensor);
     const loss = (await lossTensor.dataSync())[0];
@@ -213,7 +214,7 @@
     document.getElementById("testing-status").innerHTML = `Testing set loss: ${loss.toPrecision(5)}`;
   }
 
-  async function train () {
+  async function train(){
 
     // Disable all buttons and update status
     ["train", "test", "load", "predict", "save"].forEach(id => {
@@ -261,16 +262,16 @@
     tfvis.show.layer({ name: "Layer 1" }, layer);
   }
 
-  async function toggleVisor () {
+  async function toggleVisor() {
     tfvis.visor().toggle();
   }
 
   let points;
-  let normalisedFeature, normalisedLabel;
+  let normalizedFeature, normalizedLabel;
   let trainingFeatureTensor, testingFeatureTensor, trainingLabelTensor, testingLabelTensor;
 
 
-  async function run () {
+  async function run() {
 
     // Ensure tensorflow is initialized and ready
     await tf.ready();
@@ -307,8 +308,8 @@
     // labelTensor.print()
 
     // Normalize features and labels
-    const normalizedFeature = normalize(featureTensor);
-    const normalizedLabel = normalize(labelTensor);
+    normalizedFeature = normalize(featureTensor);
+    normalizedLabel = normalize(labelTensor);
     featureTensor.dispose();
     labelTensor.dispose();
 
