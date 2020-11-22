@@ -26,7 +26,6 @@ id,region,price,type,sqfeet,beds,baths,cats_allowed,dogs_allowed,smoking_allowed
 7048756530,new york city,2075,condo,315,0,1,0,0,0,0,0,0,laundry in bldg,no parking,40.7614,-73.9889,ny
 7048741617,new york city,3021,apartment,700,1,1,1,1,1,1,0,0,laundry in bldg,attached garage,40.7454,-73.9575,ny
 7048419127,new york city,2495,apartment,700,1,1,1,0,1,0,0,0,laundry in bldg,,40.7503,-73.9968,ny
-7050347961,new york city,16,apartment,735,2,1,0,0,1,0,0,0,,,40.7426,-73.8939,ny
 7050345900,new york city,1700,townhouse,600,1,1,0,0,1,0,0,0,,,40.7428,-73.7588,ny
 7050334625,new york city,7695,apartment,1500,2,2,1,1,1,0,0,0,w/d in unit,attached garage,40.7794,-73.9546,ny
 7051257763,new york city,2050,townhouse,1500,2,1.5,1,0,0,0,0,0,w/d in unit,off-street parking,40.6348,-74.089,ny
@@ -86,7 +85,6 @@ id,region,price,type,sqfeet,beds,baths,cats_allowed,dogs_allowed,smoking_allowed
 7051092747,new york city,1845,apartment,550,1,1,1,1,1,0,0,0,,,40.8785,-73.9162,ny
 7051092686,new york city,2400,apartment,750,2,1.5,1,1,1,0,0,0,,street parking,40.7095,-73.9563,ny
 7051092386,new york city,5500,apartment,1800,2,2.5,0,0,0,0,0,1,w/d in unit,street parking,40.6707,-73.9525,ny
-7051065118,new york city,2,apartment,2300,3,1,0,0,1,0,0,0,,,40.758,-73.917,ny
 7050320655,new york city,1750,apartment,400,0,1,1,0,1,0,0,0,,,40.7674,-73.955,ny
 7051092102,new york city,2095,apartment,380,0,1,0,1,1,0,0,0,laundry in bldg,attached garage,40.8188,-73.956,ny
 7051088582,new york city,2800,apartment,1000,3,1,0,0,1,0,0,0,,,40.7698,-73.9252,ny
@@ -94,7 +92,6 @@ id,region,price,type,sqfeet,beds,baths,cats_allowed,dogs_allowed,smoking_allowed
 7051071476,new york city,2995,apartment,675,1,1,1,1,1,0,0,0,w/d in unit,,40.7709,-73.9205,ny
 7051070564,new york city,3895,apartment,850,2,1,1,1,1,1,0,0,laundry in bldg,street parking,40.7359,-73.986,ny
 7051068001,new york city,2699,apartment,1000,2,1,1,1,1,1,0,0,laundry in bldg,attached garage,40.6778,-73.8733,ny
-7051060824,new york city,25,apartment,1100,3,1,0,0,1,0,0,0,,,40.7552,-73.8815,ny
 7051059702,new york city,1650,apartment,780,1,1,1,1,1,0,0,0,,attached garage,41.0531,-73.539,ny
 7051059256,new york city,3300,apartment,1300,3,2,1,1,1,0,0,0,,,41.0531,-73.539,ny
 7051058871,new york city,2400,apartment,1500,3,1,0,0,1,0,0,0,no laundry on site,no parking,40.5839,-73.9536,ny
@@ -238,7 +235,6 @@ id,region,price,type,sqfeet,beds,baths,cats_allowed,dogs_allowed,smoking_allowed
 7050507978,new york city,5009,apartment,1000,2,2,1,1,1,0,0,0,laundry in bldg,attached garage,40.7446,-73.9345,ny
 7050504486,new york city,2650,apartment,1050,3,2,0,1,1,0,0,0,laundry on site,street parking,40.6335,-74.027,ny
 7050504354,new york city,2908,apartment,700,1,1,1,1,1,0,0,0,laundry in bldg,,40.7446,-73.9345,ny
-7050502562,new york city,0,apartment,1100,2,1,1,1,0,0,0,0,w/d in unit,off-street parking,41.0888,-73.5435,ny
 7050498008,new york city,2200,apartment,1100,2,1,0,0,0,0,0,0,no laundry on site,off-street parking,40.679,-73.9062,ny
 7050496806,new york city,1800,apartment,700,1,1,0,0,1,0,0,0,,,40.7663,-73.9074,ny
 7050495438,new york city,2765,apartment,550,0,1,1,1,1,0,0,0,laundry in bldg,,40.7446,-73.9345,ny
@@ -279,7 +275,6 @@ id,region,price,type,sqfeet,beds,baths,cats_allowed,dogs_allowed,smoking_allowed
 7050280444,new york city,2400,apartment,750,1,1,0,0,1,0,0,0,no laundry on site,street parking,40.6924,-73.9666,ny
 7050269893,new york city,2650,apartment,900,2,1.5,1,1,1,0,0,0,w/d in unit,,40.681,-73.9452,ny
 7050268028,new york city,1250,apartment,480,1,1,0,0,1,0,0,0,,,40.7343,-73.8504,ny
-7050262537,new york city,17,apartment,780,2,1,0,0,1,0,0,0,,,40.755,-73.8853,ny
 7050259678,new york city,1449,apartment,300,0,1,0,0,1,0,0,0,laundry in bldg,street parking,40.5979,-73.9743,ny
 7050256178,new york city,2450,apartment,550,0,1,0,0,0,0,0,1,w/d in unit,,40.7592,-73.9523,ny
 7050238400,new york city,3390,apartment,575,1,1,1,1,1,0,0,0,w/d in unit,,40.7622,-73.9955,ny
@@ -364,11 +359,8 @@ id,region,price,type,sqfeet,beds,baths,cats_allowed,dogs_allowed,smoking_allowed
 7049911055,new york city,1900,apartment,770,1,1,0,1,0,1,0,1,laundry in bldg,street parking,40.5909,-73.9669,ny
 7049888878,new york city,2100,apartment,700,1,1,0,0,0,0,0,0,w/d in unit,,41.0549,-73.6594,ny
 7049886821,new york city,1449,apartment,529,0,1,0,1,0,0,0,0,laundry in bldg,detached garage,41.0888,-73.5435,ny
-7049886647,new york city,16,apartment,525,1,1,1,1,1,0,0,0,,,40.7438,-73.9243,ny
 7049874227,new york city,1800,apartment,750,1,1,1,0,1,0,0,0,no laundry on site,no parking,40.759,-73.9159,ny
 7049871215,new york city,2900,apartment,605,1,1,1,1,1,0,0,1,laundry in bldg,attached garage,40.7012,-73.9436,ny
-7049853912,new york city,1,apartment,900,2,1,0,0,1,0,0,0,,,40.7013,-73.8048,ny
-7049853188,new york city,2,apartment,2300,3,1,0,0,1,0,0,0,,,40.758,-73.917,ny
 7049852397,new york city,1000,apartment,410,1,1,0,0,1,0,0,0,,,40.7259,-73.8598,ny
 7049842957,new york city,2800,apartment,800,2,1,0,0,1,0,0,0,laundry in bldg,,40.7706,-73.9265,ny
 7049841521,new york city,2285,apartment,600,1,1,0,0,1,0,0,0,laundry in bldg,,40.7706,-73.9265,ny
@@ -466,7 +458,6 @@ id,region,price,type,sqfeet,beds,baths,cats_allowed,dogs_allowed,smoking_allowed
 7049322647,new york city,2400,house,1650,3,1.5,0,0,0,0,0,0,w/d hookups,carport,40.6431,-74.1128,ny
 7049317282,new york city,2285,apartment,600,1,1,0,0,1,0,0,0,laundry in bldg,,40.7706,-73.9265,ny
 7049301672,new york city,2950,apartment,685,1,1,1,1,1,0,0,0,laundry in bldg,,40.763,-73.9769,ny
-7049300402,new york city,17,apartment,780,2,1,0,0,1,0,0,0,,,40.755,-73.8853,ny
 7049298886,new york city,3200,apartment,800,2,1,0,0,1,0,0,0,,,40.7515,-73.9707,ny
 7049296947,new york city,1449,apartment,529,0,1,0,1,0,0,0,0,laundry in bldg,detached garage,41.0888,-73.5435,ny
 7049293770,new york city,2750,apartment,1250,3,2,1,1,1,0,0,0,laundry in bldg,street parking,40.6762,-73.8736,ny
@@ -489,7 +480,6 @@ id,region,price,type,sqfeet,beds,baths,cats_allowed,dogs_allowed,smoking_allowed
 7049251276,new york city,3195,apartment,1450,2,2.5,0,0,0,0,0,0,w/d in unit,attached garage,41.0218,-73.6337,ny
 7049251124,new york city,1720,apartment,900,1,1,0,0,1,0,0,0,laundry in bldg,,40.6251,-74.0303,ny
 7049249496,new york city,2145,apartment,1300,3,2,0,0,0,0,0,0,no laundry on site,off-street parking,40.6621,-73.7353,ny
-7049172205,new york city,2,apartment,1000,3,1,0,0,1,0,0,0,,,40.7518,-73.9066,ny
 7049243897,new york city,2850,apartment,650,1,1,1,1,1,0,0,0,laundry in bldg,street parking,40.7203,-73.9444,ny
 7049236363,new york city,6500,apartment,1050,4,2,0,0,1,0,0,0,laundry in bldg,street parking,40.7151,-73.9564,ny
 7049229257,new york city,1695,apartment,900,1,1,1,1,1,0,0,0,laundry in bldg,,40.6161,-73.9563,ny
@@ -498,7 +488,6 @@ id,region,price,type,sqfeet,beds,baths,cats_allowed,dogs_allowed,smoking_allowed
 7049224643,new york city,3099,apartment,850,1,1,1,1,1,0,0,0,w/d in unit,,40.7446,-73.9577,ny
 7049223285,new york city,3795,apartment,822,2,1,1,1,1,0,0,0,,,40.7091,-74.0146,ny
 7049222726,new york city,2536,apartment,625,1,1,0,0,1,0,0,0,laundry in bldg,,40.7713,-73.9216,ny
-7049167785,new york city,25,apartment,1100,3,1,0,0,1,0,0,0,,,40.7552,-73.8815,ny
 7049221419,new york city,2999,apartment,700,1,1,1,1,1,0,0,0,w/d in unit,,40.7704,-73.9164,ny
 7049208308,new york city,2350,duplex,990,2,1.5,1,1,0,0,0,0,w/d in unit,off-street parking,41.151,-73.4944,ny
 7049208325,new york city,2800,apartment,900,2,1,1,1,1,0,0,0,laundry in bldg,,40.7694,-73.9228,ny
@@ -516,7 +505,6 @@ id,region,price,type,sqfeet,beds,baths,cats_allowed,dogs_allowed,smoking_allowed
 7049106299,new york city,2300,apartment,1000,3,1,1,1,0,0,0,0,no laundry on site,no parking,40.6251,-74.0303,ny
 7049105802,new york city,1000,apartment,410,1,1,0,0,1,0,0,0,,,40.7259,-73.8598,ny
 7049105596,new york city,1550,apartment,1000,1,1,0,0,1,0,0,0,laundry in bldg,street parking,40.5763,-73.9612,ny
-7049103654,new york city,16,apartment,525,1,1,1,1,1,0,0,0,,,40.7438,-73.9243,ny
 7049099085,new york city,2199,apartment,1000,2,1,1,1,1,1,0,0,laundry in bldg,street parking,40.696,-73.8624,ny
 7049091730,new york city,1900,townhouse,1150,3,2,0,0,1,0,0,0,w/d hookups,off-street parking,40.5605,-74.1059,ny
 7049087851,new york city,2995,apartment,675,1,1,1,1,1,0,0,0,w/d in unit,,40.7709,-73.9205,ny
@@ -622,9 +610,6 @@ id,region,price,type,sqfeet,beds,baths,cats_allowed,dogs_allowed,smoking_allowed
 7048619561,new york city,2599,house,1200,3,1.5,1,1,1,0,0,0,no laundry on site,street parking,40.6766,-73.9249,ny
 7048611075,new york city,2250,apartment,300,1,1,1,1,1,0,0,0,laundry in bldg,street parking,40.7651,-73.9638,ny
 7048607343,new york city,1350,apartment,680,1,1,0,0,1,0,0,0,,,40.7438,-73.9243,ny
-7048603812,new york city,2,apartment,2300,3,1,0,0,1,0,0,0,,,40.758,-73.917,ny
-7048602538,new york city,1,apartment,900,2,1,0,0,1,0,0,0,,,40.7013,-73.8048,ny
-7048600958,new york city,25,apartment,1100,3,1,0,0,1,0,0,0,,,40.7552,-73.8815,ny
 7048593965,new york city,1495,apartment,825,2,1,0,0,1,0,0,0,w/d in unit,off-street parking,41.1928,-73.2402,ny
 7048591072,new york city,1000,apartment,410,1,1,0,0,1,0,0,0,,,40.7259,-73.8598,ny
 7048587320,new york city,2200,apartment,850,2,2,0,0,1,0,0,0,laundry in bldg,,40.7143,-73.7821,ny
