@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Where can I find my home?</title>
+  <title>How much is my dream home?</title>
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis"></script>
 
@@ -15,6 +15,20 @@
   <style>
   body {
     font-family: 'Nerko One', cursive;
+    background-color: rgb(2, 17, 49);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    color: white;
+    /* display: flex;
+    min-height: 100vh;
+    flex-direction: column; */
+  }
+  #tfjs-visor-container{
+    color: black;
   }
   </style>
 </head>
@@ -112,12 +126,12 @@
 
     // single layer, single node, linear
     // dense, all inputs and outputs are connected
-    // model.add(tf.layers.dense({
-    //   units: 1,
-    //   useBias: true,
-    //   activation: 'linear',
-    //   inputDim: 1,
-    // }));
+    model.add(tf.layers.dense({
+      units: 1,
+      useBias: true,
+      activation: 'linear',
+      inputDim: 1,
+    }));
 
     // do it non-linearly with signmoid activ func
     // model.add(tf.layers.dense({
@@ -129,23 +143,23 @@
 
     // add multiple layers to model
     // speeds up training process, but more vulnerable to overfit
-    model.add(tf.layers.dense({
-      units: 10,
-      useBias: true,
-      activation: 'sigmoid',
-      inputDim: 1,
-    }));
-    model.add(tf.layers.dense({
-      units: 10,
-      useBias: true,
-      activation: 'sigmoid',
-    }));
-    model.add(tf.layers.dense({
-      // only one label
-      units: 1,
-      useBias: true,
-      activation: 'sigmoid',
-    }));
+    // model.add(tf.layers.dense({
+    //   units: 10,
+    //   useBias: true,
+    //   activation: 'sigmoid',
+    //   inputDim: 1,
+    // }));
+    // model.add(tf.layers.dense({
+    //   units: 10,
+    //   useBias: true,
+    //   activation: 'sigmoid',
+    // }));
+    // model.add(tf.layers.dense({
+    //   // only one label
+    //   units: 1,
+    //   useBias: true,
+    //   activation: 'sigmoid',
+    // }));
 
     // optimizer
     // stochastic gradient descent builtin optimizer, with a learning rate of 0.1
@@ -155,7 +169,7 @@
     // 0.5: wobbly moving away from min, bit too large
     // 1.0: very much too large, diverging away from min
     // adam: different optimizer algorithm, works effectively without learning rate, the algo adapts leraning rate over epochs
-    const optimizer = tf.train.sgd(0.1);
+    const optimizer = tf.train.sgd(0.01);
 
     // prepares model for training and testing, chose loss func from builtin tf.loss.meanSquaredError
     // RMSE with already normalized data is overkill, so we just use MSE
@@ -318,8 +332,8 @@
     const validationLoss = result.history.val_loss.pop();
     console.log(`Validation set loss: ${validationLoss}`);
 
-    document.getElementById("model-status").innerHTML = "Trained (unsaved)\n"
-      + `Training Loss: ${trainingLoss.toPrecision(5)}\n`
+    document.getElementById("model-status").innerHTML = "Trained (unsaved)\n\n<br>"
+      + `Training Loss: ${trainingLoss.toPrecision(5)}\n<br>`
       + `Validation loss: ${validationLoss.toPrecision(5)}`;
     document.getElementById("test-button").removeAttribute("disabled");
     document.getElementById("save-button").removeAttribute("disabled");
@@ -424,10 +438,10 @@
 </div>
 
 <!--   Misc buttons   -->
-<div class="section no-pad-bot light-blue lighten-4">
+<div class="section no-pad-bot">
   <div class="container">
     <div class="row center">
-      <button id="toggle-button" class="waves-effect waves-light light-blue btn-small" onclick="toggleVisor()">Toggle Visor</button>
+      <button id="toggle-button" class="waves-effect blue darken-4 btn-small" onclick="toggleVisor()">Toggle Visor</button>
       <br/><br/>
     </div>
   </div>
@@ -441,26 +455,26 @@
       <!--   Training   -->
       <div class="col s12 m6">
         <div class="icon-block">
-          <h3 class="center light-blue-text"><i class="material-icons" style="font-size: 2em">build</i></h3>
-          <h5 class="center">Train & Test</h5>
+          <h3 class="center light-blue-text"></h3>
+          <h5 class="center">Train & Test <i class="material-icons" style="font-size: 1em">build</i></h5>
 
           <p class="light"></p>
 
           <div>
-            <p><label>Training status:</label></p>
-            <pre class="grey lighten-4" style="overflow-x: auto"><em id="model-status">Loading data...</em></pre>
+            <p>Training status:</p>
+            <p><strong id="model-status">Loading data...</strong></p>
 
-            <p><label>Testing status:</label></p>
-            <pre class="grey lighten-4" style="overflow-x: auto"><em id="testing-status">Not yet tested</em></pre>
+            <p>Testing status:</p>
+            <p><strong id="testing-status">Not tested yet!</strong></p>
 
-            <button autocomplete="off" id="train-button" class="waves-effect light-blue waves-light btn" disabled onclick="train()">Train New Model</button>
-            <button autocomplete="off" id="test-button" class="waves-effect light-blue waves-light btn" disabled onclick="test()">Test Model</button>
+            <button autocomplete="off" id="train-button" class="waves-effect blue darken-4 btn" disabled onclick="train()">Train New Model</button>
+            <button autocomplete="off" id="test-button" class="waves-effect blue darken-4 btn" disabled onclick="test()">Test Model</button>
           </div>
           <br/>
 
           <div>
-            <button autocomplete="off" id="load-button" class="waves-effect light-blue waves-light btn-small" disabled onclick="load()">Load Model</button>
-            <button autocomplete="off" id="save-button" class="waves-effect light-blue waves-light btn-small" disabled onclick="save()">Save Model</button>
+            <button autocomplete="off" id="load-button" class="waves-effect blue darken-4 btn-small" disabled onclick="load()">Load Model</button>
+            <button autocomplete="off" id="save-button" class="waves-effect blue darken-4 btn-small" disabled onclick="save()">Save Model</button>
           </div>
 
         </div>
@@ -469,12 +483,18 @@
       <!--   Prediction   -->
       <div class="col s12 m6">
         <div class="icon-block">
-          <h3 class="center light-blue-text"><i class="material-icons" style="font-size: 2em">timeline</i></h3>
-          <h5 class="center">Predict</h5>
+          <h3 class="center light-blue-text"></h3>
+          <h5 class="center">Predict <i class="material-icons" style="font-size: 1em">timeline</i></h5>
 
-          <label>Square feet of house: <input type="number" id="prediction-input" placeholder="2000"/></label>
-          <button autocomplete="off" id="predict-button" class="waves-effect light-blue waves-light btn" disabled onclick="predict()">Predict house price</button>
-          <p><strong id="prediction-output"></strong></p>
+          <div class="input-field col s12">Square feet of house:
+              <label for="prediction-input"></label>
+              <input type="number" id="prediction-input"" name="prediction-input"" placeholder="2000" style="color: white;"/>
+              <button autocomplete="off" id="predict-button" class="waves-effect blue darken-4 btn" disabled onclick="predict()">Predict Rent</button>
+
+              <p><strong id="prediction-output"></strong></p>
+          </div>
+
+          
         </div>
       </div>
     </div>
