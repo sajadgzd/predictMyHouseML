@@ -112,11 +112,39 @@
 
     // single layer, single node, linear
     // dense, all inputs and outputs are connected
+    // model.add(tf.layers.dense({
+    //   units: 1,
+    //   useBias: true,
+    //   activation: 'linear',
+    //   inputDim: 1,
+    // }));
+
+    // do it non-linearly with signmoid activ func
+    // model.add(tf.layers.dense({
+    //   units: 1,
+    //   useBias: true,
+    //   activation: 'sigmoid',
+    //   inputDim: 1,
+    // }));
+
+    // add multiple layers to model
+    // speeds up training process, but more vulnerable to overfit
     model.add(tf.layers.dense({
+      units: 10,
+      useBias: true,
+      activation: 'sigmoid',
+      inputDim: 1,
+    }));
+    model.add(tf.layers.dense({
+      units: 10,
+      useBias: true,
+      activation: 'sigmoid',
+    }));
+    model.add(tf.layers.dense({
+      // only one label
       units: 1,
       useBias: true,
-      activation: 'linear',
-      inputDim: 1,
+      activation: 'sigmoid',
     }));
 
     // optimizer
@@ -153,7 +181,7 @@
     return model.fit(trainingFeatureTensor, trainingLabelTensor, {
       // in each epoch, there'll be number batches of data to be optimized
       batchSize: 32,
-      epochs: 30,
+      epochs: 40,
       // 20% of dataset for validation for safeguard to check overfitting
       // calculating loss independently from training data
       validationSplit: 0.2,
@@ -298,6 +326,7 @@
     document.getElementById("predict-button").removeAttribute("disabled");
   }
 
+  // func to change params of model
   async function plotParams(weight, bias) {
     model.getLayer(null, 0).setWeights([
       tf.tensor2d([[weight]]), // Kernel (input multiplier)
