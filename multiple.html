@@ -32,15 +32,16 @@
 <body>
 
 <script type="text/javascript">
-// When we have multiple features for our input, we should perform normalisation (aka feature scaling) for each separately (keeping hold of separate min and max values for denormalisation).
-// We can visualise 2 input features for a classification data set on a scatter plot, with each class as a different series (with different colour/shape).
-// A binary classification model outputs a single value to indicate if an item is in a class (or not)
-// We train binary classification with certain class values: 0 or 1
-// The predictions we get back are decimal fractions between 0 and 1.
-// We can round predictions, or output them as a likelihood of being in the class. eg. 0.6 is 60% likelihood.
-// A binary classification model can use a few layers containing numerous nodes, with sigmoid activation functions.
-// We use binaryCrossentropy as our loss function
-// We can visualise the prediction outputs across the domain of data with heatmaps
+// When we have multiple features for our input, we should perform normalization (aka feature scaling) for each separately (keeping hold of separate min and max values for denormalization).
+// We can visualise 2 input features for a on a scatter plot.
+
+  // global variables
+  let points;
+  let normalizedFeature, normalizedLabel;
+  let trainingFeatureTensor, testingFeatureTensor, trainingLabelTensor, testingLabelTensor;
+  let model;
+
+  run();
 
   async function plotPoints(pointsArray, priceTag) {
     const allSeries = {};
@@ -133,7 +134,6 @@
     }
   }
 
-  let model;
   function createModel () {
     model = tf.sequential();
 
@@ -275,9 +275,6 @@
     tfvis.visor().toggle();
   }
 
-  let points;
-  let normalizedFeature, normalizedLabel;
-  let trainingFeatureTensor, testingFeatureTensor, trainingLabelTensor, testingLabelTensor;
   async function run () {
     // Ensure backend has initialized
     await tf.ready();
@@ -323,7 +320,6 @@
     document.getElementById("load-button").removeAttribute("disabled");
   }
 
-  run();
 </script>
 <div class="section no-pad-bot" id="index-banner">
   <button id="toggle-button" class="waves-effect blue darken-4 btn-small" onclick="toggleVisor()" style="margin-left: 10px;">Toggle Visor</button>

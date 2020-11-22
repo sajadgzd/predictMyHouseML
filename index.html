@@ -49,6 +49,14 @@
 // You need to keep track of the minimum and maximum values to later denormalize.
 // Tensors can be split into sub tensors in any ratio using tf.split(...)
 
+  // global variables
+  let model;
+  let points;
+  let normalizedFeature, normalizedLabel;
+  let trainingFeatureTensor, testingFeatureTensor, trainingLabelTensor, testingLabelTensor;
+
+  run();
+
   // async func to plot and visualize our data 
   async function plot(pointsArray, featureName, predictedPointsArray = null) {
     const values = [pointsArray.slice(0, 1000)];
@@ -115,8 +123,6 @@
     const denormalizedTensor = tensor.mul(max.sub(min)).add(min);
     return denormalizedTensor;
   }
-
-  let model;
 
   function createModel() {
     // sequential model, output of a layer is the input of next layer
@@ -364,13 +370,6 @@
   async function toggleVisor() {
     tfvis.visor().toggle();
   }
-
-  // global variables
-  let points;
-  let normalizedFeature, normalizedLabel;
-  let trainingFeatureTensor, testingFeatureTensor, trainingLabelTensor, testingLabelTensor;
-
-
   async function run() {
     // Ensure tensorflow is initialized and ready
     await tf.ready();
@@ -431,8 +430,6 @@
     document.getElementById("load-button").removeAttribute("disabled");
 
   }
-
-  run();
 </script>
 
 <div class="section no-pad-bot" id="index-banner">
