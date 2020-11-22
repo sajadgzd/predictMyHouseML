@@ -135,7 +135,7 @@ return model;
 async function trainModel (model, trainingFeatureTensor, trainingLabelTensor) {
 
 const { onBatchEnd, onEpochEnd } = tfvis.show.fitCallbacks(
-    { name: "Training Performance" },
+    { name: "Training" },
     ['loss']
 );
 
