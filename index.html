@@ -14,7 +14,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
   <style>
   body {
-    font-family: 'Nerko One', cursive;
+    /* font-family: 'Nerko One', cursive; */
     background-color: rgb(2, 17, 49);
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/3.jpg");
@@ -23,9 +23,6 @@
     background-position: bottom;
     background-size: cover;
     color: white;
-    /* display: flex;
-    min-height: 100vh;
-    flex-direction: column; */
   }
   #tfjs-visor-container{
     color: black;
@@ -132,6 +129,16 @@
       activation: 'linear',
       inputDim: 1,
     }));
+    // model.add(tf.layers.dense({
+    //   units: 1,
+    //   useBias: true,
+    //   activation: 'linear',
+    // }));
+    // model.add(tf.layers.dense({
+    //   units: 1,
+    //   useBias: true,
+    //   activation: 'linear',
+    // }));
 
     // do it non-linearly with signmoid activ func
     // model.add(tf.layers.dense({
@@ -214,7 +221,7 @@
 
   // runs on predict button click
   // predicts price
-  async function predict() {
+  async function predict(){
 
     // get input for sqft
     const predictionInput = parseInt(document.getElementById("prediction-input").value);
@@ -427,32 +434,31 @@
   run();
 </script>
 
-<!--   Header   -->
 <div class="section no-pad-bot" id="index-banner">
+  <button id="toggle-button" class="waves-effect blue darken-4 btn-small" onclick="toggleVisor()" style="margin-left: 10px;">Toggle Visor</button>
   <div class="container">
-    <h5 class="header center blue-text small">Find me a home!</h5>
+    <h5 class="header center blue-text text-lighten-4 small">How much is my dream home?</h5>
     <div class="row center">
-      <h6 class="header col s12 light">Give me the sqft space you want, I'll tell you how much money you need to have for it!</h6>
+      <h6 class="header col s12 light">Give us the specifications of your dream place you want, We'll tell you how much money you need to have for it!</h6>
     </div>
   </div>
 </div>
 
-<!--   Misc buttons   -->
 <div class="section no-pad-bot">
   <div class="container">
     <div class="row center">
-      <button id="toggle-button" class="waves-effect blue darken-4 btn-small" onclick="toggleVisor()">Toggle Visor</button>
+      <p><strong id="">You know how many bedrooms you are looking for?</strong></p>
+      <p><strong id="">Click on button below to switch to a more narrowed down predicion</strong></p>
+      <a class="waves-effect blue darken-4 btn"  href="multiple.html">Switch to Narrow Down Prediction Page</a>
       <br/><br/>
     </div>
   </div>
 </div>
 
-<!--   Main functionality   -->
 <div class="container">
   <div class="section">
 
     <div class="row">
-      <!--   Training   -->
       <div class="col s12 m6">
         <div class="icon-block">
           <h3 class="center light-blue-text"></h3>
@@ -480,7 +486,6 @@
         </div>
       </div>
 
-      <!--   Prediction   -->
       <div class="col s12 m6">
         <div class="icon-block">
           <h3 class="center light-blue-text"></h3>
@@ -497,6 +502,8 @@
           
         </div>
       </div>
+
+
     </div>
 
   </div>
