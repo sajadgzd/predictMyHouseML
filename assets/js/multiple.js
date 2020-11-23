@@ -8,7 +8,7 @@ const storageID = "nyc_housing_multiple";
 
 run();
 
-async function toggleVisor() {
+async function toggle() {
     tfvis.visor().toggle();
     }
 

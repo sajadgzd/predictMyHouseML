@@ -73,7 +73,7 @@ async function plot(pointsArray, featureName, predictedPointsArray = null) {
 }
 
 // open or close tf visor
-async function toggleVisor() {
+async function toggle() {
     tfvis.visor().toggle();
 }
 
