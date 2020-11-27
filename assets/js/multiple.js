@@ -42,8 +42,8 @@ async function plotPoints(pointsArray, priceTag) {
         styles: { width: "100%", height: "100%" },
         },
         {
-        values: Object.values(allSeries),
-        series: Object.keys(allSeries),
+        values: Object.values(allpricePoints),
+        series: Object.keys(allpricePoints),
         },
         {
         xLabel: "Square feet",
@@ -121,18 +121,18 @@ function createModel () {
     model.add(tf.layers.dense({
         units: 10,
         useBias: true,
-        activation: 'sigmoid',
-        inputDim: 2,
+        activation: 'linear',
+        inputDim: 5,
     }));
     model.add(tf.layers.dense({
         units: 10,
         useBias: true,
-        activation: 'sigmoid',
+        activation: 'linear',
     }));
     model.add(tf.layers.dense({
         units: 1,
         useBias: true,
-        activation: 'sigmoid',
+        activation: 'linear',
     }));
 
     const optimizer = tf.train.adam();
@@ -171,19 +171,24 @@ async function predict(){
 
     const predictionInputOne = parseInt(document.getElementById("prediction-input-1").value);
     const predictionInputTwo = parseInt(document.getElementById("prediction-input-2").value);
-    if (isNaN(predictionInputOne) || isNaN(predictionInputTwo)) {
+
+    const predictionInputThree = parseInt(document.getElementById("prediction-input-3").value);
+    const predictionInputFour = parseInt(document.getElementById("prediction-input-4").value);
+    const predictionInputFive = parseInt(document.getElementById("prediction-input-5").value);
+
+    if (isNaN(predictionInputOne) || isNaN(predictionInputTwo) || isNaN(predictionInputThree) || isNaN(predictionInputFour) || isNaN(predictionInputFive)) {
         alert("Please enter a valid input");
     }
     else if (predictionInputOne < 200) {
         alert("Please enter a value above 200 sqft");
     }
-    else if (predictionInputTwo < 1) {
-        alert("Please enter a valid value for bedrooms");
+    else if (predictionInputTwo < 0) {
+        alert("Please enter a valid number for bedrooms");
     }
     else {
         // use tidy for memory cleaning
         tf.tidy(() => {
-            const inputTensor = tf.tensor2d([[predictionInputOne, predictionInputTwo]]);
+            const inputTensor = tf.tensor2d([[predictionInputOne, predictionInputTwo, predictionInputThree, predictionInputFour, predictionInputFive]]);
             const normalizedInput = normalize(inputTensor, normalizedFeature.min, normalizedFeature.max);
             const normalizedOutputTensor = model.predict(normalizedInput.tensor);
             const outputTensor = denormalize(normalizedOutputTensor, normalizedLabel.min, normalizedLabel.max);
@@ -214,7 +219,7 @@ async function load() {
     }
 }
 
-async function test() {
+async function test(){
     // func to test
     const lossTensor = model.evaluate(testingFeatureTensor, testingLabelTensor);
     const loss = (await lossTensor.dataSync())[0];
@@ -223,7 +228,7 @@ async function test() {
     document.getElementById("testing-status").innerHTML = `Testing set loss: ${loss.toPrecision(5)}`;
 }
 
-async function train() {
+async function train(){
     // func to train our model
     // Disable all buttons and update status
     ["train", "test", "load", "predict", "save"].forEach(id => {
@@ -265,6 +270,9 @@ async function run () {
     const pointsDataset = houseSalesDataset.map(record => ({
         x: record.sqfeet,
         y: record.beds,
+        w: record.baths,
+        v: record.dogs_allowed,
+        s: record.cats_allowed,
         z: record.price,
     }));
     points = await pointsDataset.toArray();
@@ -278,7 +286,7 @@ async function run () {
     plotPoints(points, "price");
 
     // get Features
-    const featureValues = points.map(p => [p.x, p.y]);
+    const featureValues = points.map(p => [p.x, p.y, p.w, p.v, p.s]);
     const featureTensor = tf.tensor2d(featureValues);
 
     // get Labels

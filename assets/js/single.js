@@ -161,7 +161,7 @@ function createModel() {
     // 0.5: wobbly moving away from min, bit too large
     // 1.0: very much too large, diverging away from min
     // adam: different optimizer algorithm, works effectively without learning rate, the algo adapts leraning rate over epochs
-    const optimizer = tf.train.sgd(0.01);
+    const optimizer = tf.train.sgd(0.1);
 
     // prepares model for training and testing, chose loss func from builtin tf.loss.meanSquaredError
     // RMSE with already normalized data is overkill, so we just use MSE

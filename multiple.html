@@ -44,7 +44,7 @@
 <div class="section no-pad-bot">
   <div class="container">
     <div class="row center">
-      <p><strong id="">You don't care about the number of bedrooms you are looking for?</strong></p>
+      <p><strong id="">You don't care about too much details?</strong></p>
       <p><strong id="">Click on button below to switch to the simple predicion page</strong></p>
       <a class="waves-effect blue darken-4 btn"  href="index.html">Switch to Simple Prediction Page</a>
       <br/><br/>
@@ -59,25 +59,24 @@
       <div class="col s12 m6">
         <div class="icon-block">
           <h3 class="center light-blue-text"></h3>
-          <h5 class="center">Train & Test <i class="material-icons" style="font-size: 1em">build</i></h5>
+          <h5 class="">Build the Model</h5>
 
           <p class="light"></p>
 
           <div>
+            <button autocomplete="off" id="train-button" class="waves-effect blue darken-4 btn-small" disabled onclick="train()">Train New Model</button>
             <p>Training status:</p>
             <p><strong id="model-status">Loading data...</strong></p>
-
+            <button autocomplete="off" id="test-button" class="waves-effect blue darken-4 btn-small" disabled onclick="test()">Test Model</button>
             <p>Testing status:</p>
             <p><strong id="testing-status">Not tested yet!</strong></p>
-
-            <button autocomplete="off" id="train-button" class="waves-effect blue darken-4 btn" disabled onclick="train()">Train New Model</button>
-            <button autocomplete="off" id="test-button" class="waves-effect blue darken-4 btn" disabled onclick="test()">Test Model</button>
           </div>
           <br/>
 
           <div>
             <button autocomplete="off" id="load-button" class="waves-effect blue darken-4 btn-small" disabled onclick="load()">Load Model</button>
             <button autocomplete="off" id="save-button" class="waves-effect blue darken-4 btn-small" disabled onclick="save()">Save Model</button>
+            <button autocomplete="off" id="" class="waves-effect blue darken-4 btn-small" onclick="location.reload()">Reset</button>
           </div>
 
         </div>
@@ -86,14 +85,23 @@
       <div class="col s12 m6">
         <div class="icon-block">
           <h3 class="center light-blue-text"></h3>
-          <h5 class="center">Predict <i class="material-icons" style="font-size: 1em">timeline</i></h5>
+          <h5 class="">Predict the Rent</h5>
 
           <div class="input-field col s12">Square feet of house:
               <label for="prediction-input-1"></label>
               <input type="number" id="prediction-input-1" name="prediction-input-1" placeholder="600" style="color: white;"/>
               Bedrooms:
               <label for="prediction-input-2"></label>
-              <input type="number" id="prediction-input-2" name="prediction-input-2" placeholder="1" style="color: white;"/>
+              <input type="number" id="prediction-input-2" name="prediction-input-2" placeholder="0" style="color: white;"/>
+              Bathrooms:
+              <label for="prediction-input-3"></label>
+              <input type="number" id="prediction-input-3" name="prediction-input-3" placeholder="1" style="color: white;"/>
+              Dogs Allowed:
+              <label for="prediction-input-4"></label>
+              <input type="number" id="prediction-input-4" name="prediction-input-4" placeholder="0" style="color: white;"/>
+              Cats Allowed:
+              <label for="prediction-input-5"></label>
+              <input type="number" id="prediction-input-5" name="prediction-input-5" placeholder="0" style="color: white;"/>
 
 
               <button autocomplete="off" id="predict-button" class="waves-effect blue darken-4 btn" disabled onclick="predict()">Predict Rent</button>
