@@ -13,7 +13,7 @@ with open('nyc_housing.csv', mode='w') as employee_file:
     # cleaning data from urls and descriptions, also from invalid inputs such as too low price and too small listings
     for row in inputfile:
         if row[2] == "new york city" and (float(row[6]) <= 200 or float(row[4]) <= 400):
-                print("Skipping an out of range house with a price of ", row[4], " and SQFT of ", row[6])
+                print(f"Skipping an out of range house with a price of  {row[4]:5}  and SQFT of {row[6]:5}")
         
         if row[2] == "new york city" and float(row[4]) > 400 and float(row[6]) > 200:
             # print(row)
