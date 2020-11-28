@@ -117,7 +117,7 @@ function denormalize(tensor, min, max) {
 function createModel () {
     model = tf.sequential();
 
-    // using sigmoid
+    // using linear
     model.add(tf.layers.dense({
         units: 10,
         useBias: true,
@@ -184,6 +184,15 @@ async function predict(){
     }
     else if (predictionInputTwo < 0) {
         alert("Please enter a valid number for bedrooms");
+    }
+    else if (predictionInputThree < 0) {
+        alert("Please enter a valid number for Bathrooms");
+    }
+    else if (predictionInputFour < 0) {
+        alert("Please enter a valid number for Dogs Allowed");
+    }
+    else if (predictionInputFive < 0) {
+        alert("Please enter a valid number for Cats Allowed");
     }
     else {
         // use tidy for memory cleaning
