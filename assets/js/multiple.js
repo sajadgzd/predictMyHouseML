@@ -194,7 +194,7 @@ async function predict(){
             const outputTensor = denormalize(normalizedOutputTensor, normalizedLabel.min, normalizedLabel.max);
             const outputValue = outputTensor.dataSync()[0];
             const outputValuePercent = (outputValue/50).toFixed(0)*50;
-            document.getElementById("prediction-output").innerHTML = `The predicted price is <br>`
+            document.getElementById("prediction-output").innerHTML = `The predicted rent is <br>`
                 + `<span style="font-size: 2em">${outputValuePercent}</span>`;
         });
     }
@@ -251,7 +251,7 @@ async function train(){
     console.log(`Validation set loss: ${validationLoss}`);
 
     document.getElementById("model-status").innerHTML = "Trained (unsaved)\n<br>"
-        + `Loss: ${trainingLoss.toPrecision(5)}\n<br>`
+        + `Training Loss: ${trainingLoss.toPrecision(5)}\n<br>`
         + `Validation loss: ${validationLoss.toPrecision(5)}`;
     document.getElementById("test-button").removeAttribute("disabled");
     document.getElementById("save-button").removeAttribute("disabled");
