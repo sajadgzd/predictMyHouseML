@@ -22,7 +22,7 @@ async function plotPoints(pointsArray, priceTag) {
     const allpricePoints = {};
     // Process the points received
     pointsArray.forEach(p => {
-        // Add points per price
+        // Add points per rent
         if(p.z > 400){
             const pricePointsName = `${priceTag}: ${p.z}`;
             let pricePoints = allpricePoints[pricePointsName];

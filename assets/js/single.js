@@ -62,11 +62,11 @@ async function plot(pointsArray, featureName, predictedPointsArray = null) {
     }
 
     tfvis.render.scatterplot(
-        { name: `${featureName} vs House Price` },
+        { name: `${featureName} vs Rent` },
         { values, series },
         {
         xLabel: featureName,
-        yLabel: "Price",
+        yLabel: "Rent",
         height: 300,
         }
     )
@@ -161,7 +161,7 @@ function createModel() {
     // 0.5: wobbly moving away from min, bit too large
     // 1.0: very much too large, diverging away from min
     // adam: different optimizer algorithm, works effectively without learning rate, the algo adapts leraning rate over epochs
-    const optimizer = tf.train.sgd(0.1);
+    const optimizer = tf.train.sgd(0.01);
 
     // prepares model for training and testing, chose loss func from builtin tf.loss.meanSquaredError
     // RMSE with already normalized data is overkill, so we just use MSE
@@ -233,7 +233,7 @@ async function predict(){
         // round to nearest 50 number for userfriendliness
         const outputValueRounded = (outputValue/50).toFixed(0)*50;
         // update the user interface with the found result
-        document.getElementById("prediction-output").innerHTML = `The predicted house price is <br>`
+        document.getElementById("prediction-output").innerHTML = `The predicted house rent is <br>`
             + `<span style="font-size: 2em">\$${outputValueRounded}</span>`;
         });
     }
