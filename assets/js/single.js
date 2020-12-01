@@ -154,9 +154,9 @@ function createModel() {
     // }));
 
     // optimizer
-    // stochastic gradient descent builtin optimizer, with a learning rate of 0.1
+    // stochastic gradient descent builtin optimizer, with a learning rate of 0.01
     // 0.1: good starting point
-    // 0.01: reduced by factor 10, more epochs to train
+    // 0.01: reduced loss, but slightly more number of epochs to train
     // 0.001: taking longer to min
     // 0.5: wobbly moving away from min, bit too large
     // 1.0: very much too large, diverging away from min
