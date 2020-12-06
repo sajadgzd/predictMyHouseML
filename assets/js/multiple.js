@@ -159,8 +159,8 @@ async function trainModel(model, trainingFeatureTensor, trainingLabelTensor) {
         callbacks: {
         onEpochEnd,
         onEpochBegin: async function () {
-            const layer = model.getLayer(undefined, 0);
-            tfvis.show.layer({ name: "Layer 1" }, layer);
+            // const layer = model.getLayer(undefined, 0);
+            // tfvis.show.layer({ name: "Layer 1" }, layer);
         }
         }
     });
@@ -216,9 +216,9 @@ async function load() {
     const modelInfo = models[storageKey];
     if (modelInfo) {
         model = await tf.loadLayersModel(storageKey)
-        tfvis.show.modelSummary({ name: "Model summary" }, model);
-        const layer = model.getLayer(undefined, 0);
-        tfvis.show.layer({ name: "Layer 1" }, layer);
+        // tfvis.show.modelSummary({ name: "Model summary" }, model);
+        // const layer = model.getLayer(undefined, 0);
+        // tfvis.show.layer({ name: "Layer 1" }, layer);
 
         document.getElementById("model-status").innerHTML = `Trained (saved ${modelInfo.dateSaved})`;
         document.getElementById("predict-button").removeAttribute("disabled");
@@ -247,9 +247,9 @@ async function train(){
 
     // create model
     const model = createModel();
-    tfvis.show.modelSummary({ name: "Model summary" }, model);
-    const layer = model.getLayer(undefined, 0);
-    tfvis.show.layer({ name: "Layer 1" }, layer);
+    // tfvis.show.modelSummary({ name: "Model summary" }, model);
+    // const layer = model.getLayer(undefined, 0);
+    // tfvis.show.layer({ name: "Layer 1" }, layer);
 
     // await the resuld from train model
     const result = await trainModel(model, trainingFeatureTensor, trainingLabelTensor)

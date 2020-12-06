@@ -197,8 +197,8 @@ async function trainModel(model, trainingFeatureTensor, trainingLabelTensor) {
         // onEpochEnd: (epoch, log) => console.log(`Epoch ${epoch}: loss = ${log.loss}`)
         onEpochBegin: async function () {
             await plotPredictionLine();
-            const layer = model.getLayer(undefined, 0);
-            tfvis.show.layer({ name: "Layer 1" }, layer);
+            // const layer = model.getLayer(undefined, 0);
+            // tfvis.show.layer({ name: "Layer 1" }, layer);
         }
         }
     });
@@ -254,10 +254,6 @@ async function load(){
         // model found
         model = await tf.loadLayersModel(storageKey);
 
-        tfvis.show.modelSummary({ name: "Model summary" }, model);
-        const layer = model.getLayer(undefined, 0);
-        tfvis.show.layer({ name: "Layer 1" }, layer);
-
         // plot the line
         await plotPredictionLine();
 
@@ -293,12 +289,6 @@ async function train(){
 
     // create model
     const model = createModel();
-    // inspect model
-    tfvis.show.modelSummary({ name: "Model summary" }, model);
-
-    // to innspect details of layers, first layer
-    const layer = model.getLayer(undefined, 0);
-    tfvis.show.layer({ name: "Layer 1" }, layer);
 
     // plot the prediction line
     await plotPredictionLine();
@@ -320,18 +310,6 @@ async function train(){
     document.getElementById("test-button").removeAttribute("disabled");
     document.getElementById("save-button").removeAttribute("disabled");
     document.getElementById("predict-button").removeAttribute("disabled");
-}
-
-// func to change params of model
-async function plotParams(weight, bias) {
-    model.getLayer(null, 0).setWeights([
-        tf.tensor2d([[weight]]), // Kernel (input multiplier)
-        tf.tensor1d([bias]), // Bias
-    ]);
-    // plot the prediction line
-    await plotPredictionLine();
-    const layer = model.getLayer(undefined, 0);
-    tfvis.show.layer({ name: "Layer 1" }, layer);
 }
 
 async function run() {
