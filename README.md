@@ -13,7 +13,7 @@ Finding one’s next place to live in can involve many difficulties. However, un
 
 My goal out of this project was to build a web application that utilizes Tensorflow in JavaScript to give the user the ability to train, test and predict the rent based on user’s criteria for their next NYC house. The user is also able to view visualization of the datapoints and prediction line of rents using Tensorflow JS library on the web environment.
 
-To read more about how I implemented and how the application works, you may read [report](report.pdf)
+To read more about how I implemented and how the application works in more details, you may read the [report](report.pdf)
 
 <a name="technologies"></a>
 ## Technologies
