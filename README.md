@@ -42,6 +42,21 @@ Go to your browser and type in the given URL. Now you should see the application
 
 <a name="display"></a>
 ## App Display
-### Gif Demo
+
+### Page 1
 ![Page 1](assets/img/userInterface1.png)
+
+### Page 2
 ![Page 2](assets/img/userInterface2.png)
+
+### Prediction Line on Page 1
+![Prediction Line](assets/img/predictionLine.png)
+
+### Training Performance on page 2
+![Prediction Line](assets/img/trainingMultiple.png)
+
+
+### Sample run of page 2
+![Prediction Line](assets/img/multipleLoss.png)
+### Sample result of page 2
+![Prediction Line](assets/img/result.png)
